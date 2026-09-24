@@ -4,7 +4,7 @@
 
 **NeurIPS 2026**
 
-Zhongyi Cai<sup>1</sup>, Yi Du<sup>2</sup>, Chen Wang<sup>2</sup>, Yu Kong<sup>1</sup>
+Zhongyi Cai<sup>1</sup>\*, Yi Du<sup>2</sup>\*, Chen Wang<sup>2</sup>, Yu Kong<sup>1</sup>
 
 <sup>1</sup>ACTION Lab, Michigan State University &nbsp;&nbsp; <sup>2</sup>SAIR Lab, University at Buffalo
 
