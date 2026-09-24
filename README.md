@@ -92,10 +92,10 @@ Code is being cleaned up for release. Planned contents:
 
 ### EQA — `data/SEER_EQA/<scene>.json`
 
-The full SEER-Bench EQA annotations: **60 HM3DSem scenes, 110 episodes, 550 questions**, of which 220 are
-unanswerable (40.0%). Most scenes carry two episodes with different start poses and different question chains.
-An episode chains **2&ndash;10 questions** &mdash; the five below are just an example. Each file holds the
-episodes of one scene, as a list; each entry is one episode:
+The full SEER-Bench EQA annotations: **60 HM3DSem scenes, 550 questions**. Each file holds the episodes of one
+scene, as a list; each entry is one episode, and most scenes carry two episodes with different start poses and
+different question chains. An episode chains **2&ndash;10 questions**; the entry below is one such episode,
+shown with a chain of five purely as an example:
 
 ```jsonc
 {
@@ -119,8 +119,8 @@ episodes of one scene, as a list; each entry is one episode:
 ### EMN — `data/SEER_EMN/v1/<scene>.json`
 
 A released subset of the SEER-Bench EMN annotations, in GOAT-Bench episode format: **12 HM3DSem scenes &times;
-10 episodes = 120 episodes, 897 navigation tasks** (5–10 per episode), of which 358 are infeasible (39.9%).
-Each file holds the episodes of one scene plus the goal-viewpoint table they index into:
+10 episodes = 120 episodes, 897 navigation tasks** (5–10 per episode). Each file holds the episodes of one
+scene plus the goal-viewpoint table they index into:
 
 ```jsonc
 {
@@ -155,8 +155,8 @@ Each file holds the episodes of one scene plus the goal-viewpoint table they ind
 ```
 
 Goal modalities are `object` / `description` / `image` (345 / 268 / 284 tasks). Infeasible tasks carry the reason
-they are impossible: `non_existent_object` (133), `modified_description` (112) and `different_scene_image` (113) —
-the object is absent, the description does not match any instance, or the goal image comes from another scene.
+they are impossible &mdash; `non_existent_object`, `modified_description` or `different_scene_image`: the object is
+absent, the description does not match any instance, or the goal image comes from another scene.
 
 Scene meshes are not redistributed here — HM3DSem must be obtained from its
 [official release](https://aihabitat.org/datasets/hm3d-semantics/).
