@@ -78,8 +78,7 @@ Code is being cleaned up for release. Planned contents:
 ├── fig/                  # figures used in this README
 ├── 3dspmr/               # TODO: unified spatial memory, Geo-Reasoning, Geo-Sem exploration
 ├── configs/              # TODO: scene lists, backbone / hyper-parameter configs
-├── scripts/              # TODO: run EQA / EMN episodes, evaluation
-└── docs/                 # TODO: setup notes
+└── scripts/              # TODO: run EQA / EMN episodes, evaluation
 ```
 
 | Item | Status |
