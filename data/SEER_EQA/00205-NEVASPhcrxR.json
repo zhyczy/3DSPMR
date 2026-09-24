@@ -1,0 +1,132 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     44,
+     50
+    ],
+    "question": "Where did I leave my shoes in the sleeping area?",
+    "answer": "On the floor in front of the serving counter beside the curtained alcove.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": [
+     87,
+     98,
+     99
+    ],
+    "question": "Do I have enough free floor space beside the fish tank to place a small side stool?",
+    "answer": "Yes, there is open floor space beside the fish tank near the hallway.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "frame_index": 223,
+    "question": "How many candles are on the ledge of my round tub in the spa area?",
+    "answer": "3",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": [
+     21,
+     37
+    ],
+    "question": "What is put by the hot tub beside the hallway square?",
+    "answer": "I don't know, that's the wrong attribute; the hot tub is round, not square.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "How much space would the sunshade take beside the bar in the apartment?",
+    "answer": "I don't know, there is no sunshade in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00205-NEVASPhcrxR_1",
+  "episode_history": "00205-NEVASPhcrxR",
+  "position": [
+   2.0455898284912113,
+   -0.00044,
+   3.0739589691162106
+  ],
+  "rotation": [
+   0.0,
+   0.40074,
+   0.0,
+   0.91619
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     10,
+     12
+    ],
+    "question": "In the corner seating area off the corridor, what color is the rose artwork mounted above the bench?",
+    "answer": "Red.",
+    "question_type": "Object Attributes",
+    "subtype": "Object Attributes"
+   },
+   {
+    "frame_index": [
+     176,
+     177
+    ],
+    "question": "If I step out of the sauna and want to sit down immediately, where can I sit?",
+    "answer": "On the two-seat alcove directly across from the sauna.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "frame_index": [
+     241,
+     242,
+     243
+    ],
+    "question": "How many wheeled carts are positioned by the window?",
+    "answer": "2",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "frame_index": [
+     87,
+     92,
+     98
+    ],
+    "question": "Is the aquarium inside the treatment room?",
+    "answer": "I don't know, the aquarium is not in the treatment room; it is outside by the hallway.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "What is the fill level of the fork in my kitchen?",
+    "answer": "I don't know, there is no kitchen in the environment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00205-NEVASPhcrxR_2",
+  "episode_history": "00205-NEVASPhcrxR",
+  "position": [
+   -6.7544101715087885,
+   -0.00044,
+   -3.1260410308837905
+  ],
+  "rotation": [
+   0.0,
+   0.6679,
+   0.0,
+   -0.74425
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

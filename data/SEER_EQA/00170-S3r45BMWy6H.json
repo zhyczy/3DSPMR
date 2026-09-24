@@ -1,0 +1,48 @@
+[
+ {
+  "QA_list": [
+   {
+    "question": "What is the shape of the mirror in my kitchen?",
+    "answer": "I don't know. The mirro is in the bathroom, not the kitchen.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "Where did I leave my towel in the sauna room?",
+    "answer": "I don't know. There is no sauna room in my apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "question": "Is the ironing board set up in the room with the checkered floor?",
+    "answer": "No",
+    "question_type": "Object Status",
+    "subtype": "Object Status"
+   },
+   {
+    "question": "How many chairs are around the dining table in the room with the wooden floor and a red rug?",
+    "answer": "Six",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "question": "How many rugs are there in the apartment?",
+    "answer": "8",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   }
+  ],
+  "question_id": "00170-S3r45BMWy6H_0",
+  "episode_history": "00170-S3r45BMWy6H",
+  "position": [
+   6.4305596,
+   0.016639307,
+   1.6339084
+  ],
+  "rotation": [
+   5.809795356419252
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

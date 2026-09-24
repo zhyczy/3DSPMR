@@ -1,0 +1,129 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": 61,
+    "question": "In my two-bed bedroom, what color is the lamp on the nightstand by the window curtains?",
+    "answer": "Purple.",
+    "question_type": "Object Attributes",
+    "subtype": "Object Attributes"
+   },
+   {
+    "frame_index": [
+     8,
+     "layout"
+    ],
+    "question": "How many floor blankets of different colors are in the apartment?",
+    "answer": "8.",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "frame_index": [
+     35,
+     82
+    ],
+    "question": "What is beside my white-eared stuffed dog in my bedroom with blue rugs?",
+    "answer": "I don't know, white-ear stuffed dog is in the bedroom with red rugs.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "What did I leave on the rubber mat in the bicycle repair bay?",
+    "answer": "I don't know, there is no bicycle repair bay in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": 102,
+    "question": "How many basins are in the kitchen sink?",
+    "answer": "2",
+    "question_type": "Object Counting",
+    "subtype": "Local Counting"
+   }
+  ],
+  "question_id": "00323-yHLr6bvWsVm_1",
+  "episode_history": "00323-yHLr6bvWsVm",
+  "position": [
+   -1.75666,
+   0.00241,
+   7.64023
+  ],
+  "rotation": [
+   0.0,
+   0.99186,
+   0.0,
+   0.12737
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     61,
+     66,
+     73
+    ],
+    "question": "Where did I leave my stuffed dog with yellow ears?",
+    "answer": "On the bed with the blue bedsheet in the two-bed bedroom.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": [
+     96,
+     97,
+     98,
+     99
+    ],
+    "question": "Can seven people sit at the yellow kitchen table at once?",
+    "answer": "No, there are six chairs around it.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "question": "What purpose does the treadmill serve near my work desk in the apartment?",
+    "answer": "I don't know, there is no treadmill in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     95,
+     96
+    ],
+    "question": "Where can I leave my wet umbrella near the entry area?",
+    "answer": "In the black umbrella stand by the yellow foyer wall next to the black-and-pink rug.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "frame_index": [
+     102,
+     103
+    ],
+    "question": "What is the shape of the pot placed on the gas cooktop with raised metal grates in my kitchen?",
+    "answer": "I don't know, that's the wrong attribute; the cooktop is a flat electric surface.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   }
+  ],
+  "question_id": "00323-yHLr6bvWsVm_2",
+  "episode_history": "00323-yHLr6bvWsVm",
+  "position": [
+   -1.4720397949218746,
+   0.00241,
+   9.798665809631348
+  ],
+  "rotation": [
+   0.0,
+   0.96116,
+   0.0,
+   -0.276
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

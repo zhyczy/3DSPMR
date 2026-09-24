@@ -1,0 +1,48 @@
+[
+ {
+  "QA_list": [
+   {
+    "question": "What dishes are placed on the long oval dining table?",
+    "answer": "I don't know. The dining table is rectangular, not oval.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "Where is my rolled-up yoga mat?",
+    "answer": "I don't know, there is no yoga mat in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "question": "Is the piano lid down?",
+    "answer": "Yes, it is down",
+    "question_type": "Object Status",
+    "subtype": "Object Status"
+   },
+   {
+    "question": "How many chairs are there in the apartment?",
+    "answer": "10",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "question": "How many chairs we have at dining table?",
+    "answer": "Four",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   }
+  ],
+  "question_id": "00360-yA3RqPqMrGE_0",
+  "episode_history": "00360-yA3RqPqMrGE",
+  "position": [
+   4.479891777038574,
+   0.08946013450622559,
+   2.2852416038513184
+  ],
+  "rotation": [
+   3.0510892442782236
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

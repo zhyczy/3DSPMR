@@ -1,0 +1,124 @@
+[
+ {
+  "QA_list": [
+   {
+    "question": "What is the relationship between the television and the fire extinguisher in the living room?",
+    "answer": "I don't know, the television is not in the living room.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "Which shelf is appropriate to air-dry my towel in the basketball court?",
+    "answer": "I don't know, there is no basketball court in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "question": "How many bathtubs are there in my apartment?",
+    "answer": "2",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "frame_index": 84,
+    "question": "What is the black object on my bedside table next to the bed in the bedroom?",
+    "answer": "It's a telephone.",
+    "question_type": "Object Recognition",
+    "subtype": "Object Recognition"
+   },
+   {
+    "frame_index": [
+     104,
+     107,
+     108
+    ],
+    "question": "Is there enough floor space for me to stand between the sofa and the window in my bedroom?",
+    "answer": "No, that space is very tight.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   }
+  ],
+  "question_id": "00612-GsQBY83r3hb_1",
+  "episode_history": "00612-GsQBY83r3hb",
+  "position": [
+   7.619474029541017,
+   0.0359,
+   -7.886798882484436
+  ],
+  "rotation": [
+   0.0,
+   0.77242,
+   0.0,
+   -0.63511
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     11,
+     17,
+     19
+    ],
+    "question": "Can you bring me the pink pillow from the bench in my hallway?",
+    "answer": "I don't know, there is no pink pillow on the bench in the hallway; the visible pillow is not pink.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "Where is the toy backhoe stored in the apartment?",
+    "answer": "I don't know, there is no toy backhoe in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     27,
+     33,
+     39
+    ],
+    "question": "Where in my hallway can I sit down while I wait for the elevator?",
+    "answer": "You can sit on one of the chairs beside the small round table near the elevator.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "frame_index": [
+     42,
+     43
+    ],
+    "question": "How many chairs are around the small round table under the mirror in my hallway?",
+    "answer": "2",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": [
+     110,
+     111
+    ],
+    "question": "Where did I leave my coffee machine in the bedroom?",
+    "answer": "It's on the right side of the desk by the window in the bedroom.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   }
+  ],
+  "question_id": "00612-GsQBY83r3hb_2",
+  "episode_history": "00612-GsQBY83r3hb",
+  "position": [
+   7.619474029541017,
+   0.0359,
+   -7.886798882484436
+  ],
+  "rotation": [
+   0.0,
+   0.77242,
+   0.0,
+   -0.63511
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

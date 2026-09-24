@@ -1,0 +1,48 @@
+[
+ {
+  "QA_list": [
+   {
+    "question": "Is there any towel on the bathrub?",
+    "answer": "No.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "question": "How many plush toys are there on the twin bed with unicorn pillow?",
+    "answer": "None.",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "question": "What is beside the fireplace?",
+    "answer": "A white sofa.",
+    "question_type": "Object Recognition",
+    "subtype": "Object Recognition"
+   },
+   {
+    "question": "What is the material of my piano?",
+    "answer": "I don't know, there is no piano in this apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "question": "What is the status of the TV in my bedroom?",
+    "answer": "I don't know, The TV locates at the living room, not the bedroom.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   }
+  ],
+  "question_id": "00652-BcZUZQ9t4Fe_1",
+  "episode_history": "00652-BcZUZQ9t4Fe",
+  "position": [
+   -5.569403,
+   0.18099505,
+   6.319746
+  ],
+  "rotation": [
+   5.91725308
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

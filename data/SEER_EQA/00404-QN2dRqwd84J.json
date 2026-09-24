@@ -1,0 +1,120 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     18,
+     19
+    ],
+    "question": "Could two people sit together at the high table on my balcony?",
+    "answer": "Yes, there are two stools at the table.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "frame_index": 18,
+    "question": "In the bathroom with a bathtub, if I don't want to use the bathtub, how can I take a shower?",
+    "answer": "In the glass-enclosed shower stall by the bathroom doorway.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "frame_index": [
+     45,
+     46
+    ],
+    "question": "What is on the bookshelf in the corridor?",
+    "answer": "I don't know; the bookshelf is in the living room, not in the corridor.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "How many sinks in the apartment?",
+    "answer": "5.",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "question": "What did I leave on the foam pad beside the north wall panel in the climbing gym?",
+    "answer": "I don't know, there is no climbing gym in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00404-QN2dRqwd84J_1",
+  "episode_history": "00404-QN2dRqwd84J",
+  "position": [
+   8.42666,
+   0.0414,
+   -2.08407
+  ],
+  "rotation": [
+   0.0,
+   0.33687,
+   0.0,
+   0.94155
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": 63,
+    "question": "In the marble bathroom, where is my small trash bin located relative to the shelves and sink?",
+    "answer": "On the floor beside the open shelves, near the sink by the doorway.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": 47,
+    "question": "Is the sliding glass door between my living room and the balcony open?",
+    "answer": "Yes, the door is open.",
+    "question_type": "Object Status",
+    "subtype": "Object Status"
+   },
+   {
+    "frame_index": [
+     88,
+     89,
+     90
+    ],
+    "question": "How many sofas are there on the balcony?",
+    "answer": "One.",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": [
+     80,
+     81
+    ],
+    "question": "What is put on my dining table circular?",
+    "answer": "I don't know, that's the wrong attribute—the dining table is long and rectangular, not circular.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "Which shelf could hold the owl next to the TV in the apartment?",
+    "answer": "I don't know, there is no owl in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00404-QN2dRqwd84J_2",
+  "episode_history": "00404-QN2dRqwd84J",
+  "position": [
+   7.383577060699464,
+   0.0414,
+   -6.020587539672853
+  ],
+  "rotation": [
+   0.0,
+   0.8488,
+   0.0,
+   0.52872
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

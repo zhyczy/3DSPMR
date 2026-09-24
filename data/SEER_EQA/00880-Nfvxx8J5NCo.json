@@ -1,0 +1,119 @@
+[
+ {
+  "QA_list": [
+   {
+    "question": "Along which path would I reach my hanger in the sauna room?",
+    "answer": "I don't know, there is no sauna room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     103,
+     104
+    ],
+    "question": "What is the color of the microwave in my living room?",
+    "answer": "I don't know, there is no microwave in the living room.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "frame_index": 33,
+    "question": "How many decorative objects are on my dark hallway bookshelf?",
+    "answer": "7",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": 2,
+    "question": "What is the game table in my office?",
+    "answer": "It's a foosball table.",
+    "question_type": "Object Recognition",
+    "subtype": "Object Recognition"
+   },
+   {
+    "frame_index": [
+     33,
+     34,
+     35
+    ],
+    "question": "Where did I leave the ironing board in my home?",
+    "answer": "It's leaning against the wall in the laundry room beside the washer and dryer.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   }
+  ],
+  "question_id": "00880-Nfvxx8J5NCo_1",
+  "episode_history": "00880-Nfvxx8J5NCo",
+  "position": [
+   -13.459643363952637,
+   0.1808570772409439,
+   1.5081732273101807
+  ],
+  "rotation": [
+   0.0
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     34,
+     35
+    ],
+    "question": "Where is the red towel hanging in my laundry room?",
+    "answer": "I don't know, there is no red towel hanging in the laundry room; the visible towel is patterned blue and white.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "Where could I find the lion painting in the apartment?",
+    "answer": "I don't know, there is no lion painting in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "question": "How many beds are there in my apartment?",
+    "answer": "2",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "frame_index": [
+     33,
+     34,
+     35
+    ],
+    "question": "Is there enough floor space in my laundry room to stand and use the ironing board if I pull it away from the wall?",
+    "answer": "No, the laundry room looks too narrow for comfortable ironing.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "frame_index": [
+     10,
+     11,
+     12
+    ],
+    "question": "Where can I store folded clothes in my bedroom?",
+    "answer": "In the dresser beside the bed.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   }
+  ],
+  "question_id": "00880-Nfvxx8J5NCo_2",
+  "episode_history": "00880-Nfvxx8J5NCo",
+  "position": [
+   2.855391263961792,
+   0.1808570772409439,
+   -1.400151252746582
+  ],
+  "rotation": [
+   0.0
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

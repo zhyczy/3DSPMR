@@ -1,0 +1,112 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": 50,
+    "question": "Where did I leave my vacuum cleaner in the office?",
+    "answer": "Next to the tall white cabinet by the closet doorway in the office.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": 26,
+    "question": "Where is my deep green towel hanging in my bathroom?",
+    "answer": "I don't know, there isn't a deep green towel on that rack, only a white one.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "How many dressers in the apartment?",
+    "answer": "2.",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "frame_index": 0,
+    "question": "What color is the small rug placed in front of the kitchen sink?",
+    "answer": "Red.",
+    "question_type": "Object Attributes",
+    "subtype": "Object Attributes"
+   },
+   {
+    "question": "What color is the treadmill positioned behind the armchair in the apartment?",
+    "answer": "I don't know, there is no treadmill in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00272-kA2nG18hCAr_1",
+  "episode_history": "00272-kA2nG18hCAr",
+  "position": [
+   4.85314,
+   0.03277,
+   1.6376
+  ],
+  "rotation": [
+   0.0,
+   0.4812,
+   0.0,
+   -0.87661
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     114
+    ],
+    "question": "Is there enough floor space between the blue bed and the dresser in my bedroom to lay down a yoga mat?",
+    "answer": "Yes, there is enough open space between the bed and the dresser.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "question": "Where is my shoe rack under the equipment shelf within the pottery kiln room?",
+    "answer": "I don't know, there is no pottery kiln room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": 124,
+    "question": "Where should I store unopened cans and snacks that need to be kept at room temperature around the kitchen",
+    "answer": "On the wire shelves in the pantry beside the fridge off the kitchen.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "frame_index": [
+     81,
+     88
+    ],
+    "question": "What is in front of the fireplace in the kitchen?",
+    "answer": "I don't know, the fireplace is not in the kitchen; it's in the living room.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "frame_index": 71,
+    "question": "How many plates are palced on the small dining table?",
+    "answer": "4",
+    "question_type": "Object Counting",
+    "subtype": "Local Counting"
+   }
+  ],
+  "question_id": "00272-kA2nG18hCAr_2",
+  "episode_history": "00272-kA2nG18hCAr",
+  "position": [
+   6.25346,
+   0.03277,
+   2.63081
+  ],
+  "rotation": [
+   0.0,
+   0.55592,
+   0.0,
+   0.83123
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

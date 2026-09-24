@@ -1,0 +1,48 @@
+[
+ {
+  "QA_list": [
+   {
+    "question": "Where is the guitar left at in the bedroom?",
+    "answer": "Next to the bed.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "question": "Guests are coming. How many sets of utensils are on the dining table?",
+    "answer": "Six.",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "question": "How are the books arranged in my study?",
+    "answer": "I don't know. There is no study in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "question": "How many pumpkins are there in the apartment?",
+    "answer": "Two.",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "question": "What dishes are placed on the long oval dining table?",
+    "answer": "I don't know. The dining table is rectangular, not oval.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   }
+  ],
+  "question_id": "00621-SAZ4gvMfxm1_1",
+  "episode_history": "00621-SAZ4gvMfxm1",
+  "position": [
+   0.40724012,
+   0.17918837,
+   0.6419184
+  ],
+  "rotation": [
+   3.478574961
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

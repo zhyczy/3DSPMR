@@ -1,0 +1,94 @@
+[
+ {
+  "QA_list": [
+   {
+    "question": "How many bedside tables are there in the bedroom with the white bedding?",
+    "answer": "Two",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "question": "How many beds are there in the apartment?",
+    "answer": "3",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "question": "Is the gray curtain pulled down in the bedroom with two twin beds?",
+    "answer": "Yes, it is down",
+    "question_type": "Object Status",
+    "subtype": "Object Status"
+   },
+   {
+    "question": "What is between the orange and blue throw pillows on my sofa?",
+    "answer": "I don't know. The pillows are green and red.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "What is the TV showing?",
+    "answer": "I don't know, there is no TV in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00025-ixTj1aTMup2_0",
+  "episode_history": "00025-ixTj1aTMup2",
+  "position": [
+   1.3078127,
+   -2.792084,
+   -3.4658864
+  ],
+  "rotation": [
+   2.1947803782411235
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "question": "Where did I leave the standing fan at? I moved it last week.",
+    "answer": "In the living room",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "question": "What vegetables are placed on yellow wooden cutting board in my kitchen?",
+    "answer": "I don't know. The dining table is white, not yellow.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "How many dining chairs are there in the apartment?",
+    "answer": "9",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "question": "What is the status of the ceiling fan in the dining room?",
+    "answer": "I don't know, there is no ceiling fans in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "question": "Did I leave the fruit bowl next to the microwave?",
+    "answer": "No",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   }
+  ],
+  "question_id": "00025-ixTj1aTMup2_1",
+  "episode_history": "00025-ixTj1aTMup2",
+  "position": [
+   -3.7423625,
+   0.007915974,
+   -3.1781282
+  ],
+  "rotation": [
+   4.7570002108145095
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

@@ -1,0 +1,116 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": 46,
+    "question": "Is the window above the heater by my living room sofa open?",
+    "answer": "Yes, it is open.",
+    "question_type": "Object Status",
+    "subtype": "Object Status"
+   },
+   {
+    "frame_index": 148,
+    "question": "What object is beneath the blue towel hanging in the bathroom?",
+    "answer": "I don't know, that's the wrong attribute—there are beige and red towels, not blue.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "frame_index": 174,
+    "question": "In the kitchen beyond my dining room, is the floor finished with black-and-white patterned tiles?",
+    "answer": "Yes, the kitchen floor has black-and-white patterned tiles.",
+    "question_type": "Object Attributes",
+    "subtype": "Object Attributes"
+   },
+   {
+    "question": "Where is the rocket in the apartment?",
+    "answer": "I don't know, there is no rocket in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "question": "How many brooms are there in the apartment?",
+    "answer": "2",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   }
+  ],
+  "question_id": "00009-vLpv2VX547B_1",
+  "episode_history": "00009-vLpv2VX547B",
+  "position": [
+   -1.66593,
+   0.0101,
+   -1.71676
+  ],
+  "rotation": [
+   0.0,
+   0.60448,
+   0.0,
+   0.79662
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": 0,
+    "question": "What is the shape of the microwave in my bedroom?",
+    "answer": "I don't know, there is no microwave in the bedroom.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "frame_index": [
+     62,
+     64
+    ],
+    "question": "Where is my laptop in the dining area?",
+    "answer": "On the small desk against the right wall of the dining room.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": [
+     118,
+     119
+    ],
+    "question": "Is there a clear path down the library aisle between the bookshelf and the keyboard all the way to the window stool?",
+    "answer": "Yes, there is a narrow but clear walkway to the stool by the window.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "question": "Which knife did I leave on the mesh tray beside the entry gate in the boxing ring?",
+    "answer": "I don't know, there is no boxing ring in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     118,
+     119
+    ],
+    "question": "Where can I play some music in the library?",
+    "answer": "At the keyboard piano in the small library nook beside the bookshelves.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   }
+  ],
+  "question_id": "00009-vLpv2VX547B_2",
+  "episode_history": "00009-vLpv2VX547B",
+  "position": [
+   -2.06053,
+   0.0101,
+   -0.81032
+  ],
+  "rotation": [
+   0.0,
+   0.9872,
+   0.0,
+   -0.15948
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

@@ -1,0 +1,126 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     39
+    ],
+    "question": "Where in my bedroom can I store folded clothes?",
+    "answer": "In the dark dresser on the left side of the bedroom.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "frame_index": [
+     67,
+     68,
+     69
+    ],
+    "question": "Is there enough space in the bedroom corner by the window for another small chair?",
+    "answer": "No, the corner is already occupied by a chair and the curtains.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "frame_index": [
+     67,
+     70
+    ],
+    "question": "What is beside the red book from the dresser in my bedroom?",
+    "answer": "I don't know, there is no red book on the dresser in the bedroom.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "frame_index": [
+     88,
+     89
+    ],
+    "question": "How many chairs are around my table in the dining area?",
+    "answer": "5",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "question": "What is the fill level of the kettle on the station beside the lighting rig in the sauna room?",
+    "answer": "I don't know, there is no sauna room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00108-oStKKWkQ1id_1",
+  "episode_history": "00108-oStKKWkQ1id",
+  "position": [
+   0.42889,
+   0.03911,
+   6.26338
+  ],
+  "rotation": [
+   0.0,
+   0.32765,
+   0.0,
+   -0.9448
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": 32,
+    "question": "Is the wooden door from my dining area into the hallway open or closed?",
+    "answer": "It is open.",
+    "question_type": "Object Status",
+    "subtype": "Object Status"
+   },
+   {
+    "question": "How many circular mats are there in my apartment?",
+    "answer": "2",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "frame_index": [
+     80,
+     88
+    ],
+    "question": "What is the relationship between the refrigerator and the sofa in the living room?",
+    "answer": "I don't know, there is no refrigerator next to the sofa in the living room.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "frame_index": [
+     20,
+     23,
+     29
+    ],
+    "question": "Where did I leave the orange decorative bowl in my living room?",
+    "answer": "It's on the small white side table between the blue sofas near the windows.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "question": "Where is the forklift stored near the kitchen table in the apartment?",
+    "answer": "I don't know, there is no forklift in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00108-oStKKWkQ1id_2",
+  "episode_history": "00108-oStKKWkQ1id",
+  "position": [
+   -1.046186923980713,
+   0.03911,
+   0.6532245635986325
+  ],
+  "rotation": [
+   0.0,
+   0.7451,
+   0.0,
+   0.66696
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

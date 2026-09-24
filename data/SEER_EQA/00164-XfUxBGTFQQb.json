@@ -1,0 +1,127 @@
+[
+ {
+  "QA_list": [
+   {
+    "question": "How many pillows in the apartment?",
+    "answer": "5.",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "question": "How is the generator placed between the dining chairs in the apartment?",
+    "answer": "I don't know, there is no generator in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     25,
+     26
+    ],
+    "question": "Where can I hang my coat near the living room?",
+    "answer": "On the wooden coat hooks in the hallway beside the display cabinet.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "frame_index": 17,
+    "question": "Where are my pet's food and water bowls in the house?",
+    "answer": "On the floor by the side door in the dining area, next to the wooden hutch.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": [
+     21,
+     22,
+     23
+    ],
+    "question": "What is on the round coffee table in my living room?",
+    "answer": "I don't know, that's the wrong attribute—the coffee table is rectangular, not round.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   }
+  ],
+  "question_id": "00164-XfUxBGTFQQb_1",
+  "episode_history": "00164-XfUxBGTFQQb",
+  "position": [
+   -4.88209,
+   0.0197,
+   4.716
+  ],
+  "rotation": [
+   0.0,
+   0.48129,
+   0.0,
+   -0.87656
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     23,
+     24
+    ],
+    "question": "What is the instrument to the left of the display cabinet in my living room?",
+    "answer": "It's a wooden guitar.",
+    "question_type": "Object Recognition",
+    "subtype": "Object Recognition"
+   },
+   {
+    "question": "What is the fill level of the detergent bottle on the station beside the supervisor desk in the printing room?",
+    "answer": "I don't know, there is no printing room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     11,
+     12,
+     13,
+     14
+    ],
+    "question": "Is the path from my living room sofa to the round dining table clear of obstacles?",
+    "answer": "Yes, the walkway is open.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "frame_index": [
+     15
+    ],
+    "question": "How many layers does the storage shelf beside the front door have?",
+    "answer": "4",
+    "question_type": "Object Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": [
+     28,
+     11
+    ],
+    "question": "What is the color of the column lampshade in my bathroom?",
+    "answer": "I don't know, that's the wrong location—there is no Column lamp in the bathroom; it's in the living room.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   }
+  ],
+  "question_id": "00164-XfUxBGTFQQb_2",
+  "episode_history": "00164-XfUxBGTFQQb",
+  "position": [
+   -4.84799,
+   0.0197,
+   4.69493
+  ],
+  "rotation": [
+   0.0,
+   0.79767,
+   0.0,
+   0.60309
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

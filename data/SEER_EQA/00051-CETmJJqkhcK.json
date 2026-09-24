@@ -1,0 +1,48 @@
+[
+ {
+  "QA_list": [
+   {
+    "question": "I'm trying to remember where I placed the blue figurine. Is it on top of any dresser in the house?",
+    "answer": "On the wooden dresser",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "question": "How many red pillows did I leave on the living room sofa?",
+    "answer": "Two",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "question": "How many beds are there in the apartment?",
+    "answer": "2",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "question": "What is beneath the wall-mounted TV in my living room?",
+    "answer": "I don't know. The TV is not wall-mounted; it is placed on a wooden cabinet",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "How tall is my bookshelf in the apartment?",
+    "answer": "I don't know, there is no bookshelf in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00051-CETmJJqkhcK_0",
+  "episode_history": "00051-CETmJJqkhcK",
+  "position": [
+   0.69737995,
+   0.018329531,
+   -0.91463834
+  ],
+  "rotation": [
+   4.533811718183745
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

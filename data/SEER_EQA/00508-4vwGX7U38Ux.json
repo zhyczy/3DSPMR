@@ -1,0 +1,125 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": 82,
+    "question": "How many sinks are built into my kitchen counter?",
+    "answer": "2",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "question": "How is the vending machine placed between the dining chairs in the apartment?",
+    "answer": "I don't know, there is no vending machine in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     40,
+     43,
+     54
+    ],
+    "question": "How many beds are there across my bedrooms?",
+    "answer": "2",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "frame_index": [
+     29,
+     30
+    ],
+    "question": "Can you grab the golden pillow from the sofa in my living room?",
+    "answer": "I don't know, there are no golden pillows on the sofa, only reddish patterned ones.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "frame_index": [
+     1,
+     19
+    ],
+    "question": "Is the round dining table closer to my kitchen than to my sofa seating area?",
+    "answer": "Yes, the dining table is closer to the kitchen.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   }
+  ],
+  "question_id": "00508-4vwGX7U38Ux_1",
+  "episode_history": "00508-4vwGX7U38Ux",
+  "position": [
+   -1.15935,
+   0.03025,
+   5.60704
+  ],
+  "rotation": [
+   0.0,
+   0.38806,
+   0.0,
+   0.92164
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     21,
+     22,
+     37
+    ],
+    "question": "Is the window in my bedroom open?",
+    "answer": "Yes, the bedroom window is open.",
+    "question_type": "Object Status",
+    "subtype": "Object Status"
+   },
+   {
+    "frame_index": 82,
+    "question": "What is the color of my refrigerator next to the sink in the kitchen?",
+    "answer": "I don't know, the refrigerator is not next to the sink in these views.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "frame_index": [
+     62,
+     63
+    ],
+    "question": "Where can I set down my keys when I come in through the entryway?",
+    "answer": "On the small cabinet beside the stairs in the entryway.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "question": "Which cabinet section is assigned to store the plate sets near the entry gate in the sculpture casting room?",
+    "answer": "I don't know, there is no sculpture casting room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": 82,
+    "question": "Where did I leave my kettle in the kitchen?",
+    "answer": "It's on the right side of the kitchen counter near the stove.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   }
+  ],
+  "question_id": "00508-4vwGX7U38Ux_2",
+  "episode_history": "00508-4vwGX7U38Ux",
+  "position": [
+   2.970623016357422,
+   0.13024532794952393,
+   3.2637369632720947
+  ],
+  "rotation": [
+   0.0,
+   0.80775,
+   0.0,
+   -0.58952
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

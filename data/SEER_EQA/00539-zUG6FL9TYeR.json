@@ -1,0 +1,118 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     86,
+     87,
+     88
+    ],
+    "question": "Are the double doors between my two-bed guest room and the plaid-bed bedroom open?",
+    "answer": "Yes, they are open.",
+    "question_type": "Object Status",
+    "subtype": "Object Status"
+   },
+   {
+    "frame_index": 5,
+    "question": "Which side of the hallway is the bathroom entrance near the back door?",
+    "answer": "On the left side near the end of the hallway, opposite the bedroom doorway.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "question": "How many beds in all the bedrooms?",
+    "answer": "5.",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "question": "What color is the tablet placed near the entry gate inside the sculpture casting room?",
+    "answer": "I don't know, there is no sculpture casting room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": 120,
+    "question": "What is on top of the refrigerator in the bedroom with one large bed and one small bed?",
+    "answer": "I don't know, there is no refrigerator in that bedroom.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   }
+  ],
+  "question_id": "00539-zUG6FL9TYeR_1",
+  "episode_history": "00539-zUG6FL9TYeR",
+  "position": [
+   -0.71998,
+   -0.48277,
+   2.65868
+  ],
+  "rotation": [
+   0,
+   0.99828,
+   0,
+   0.05868
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": 66,
+    "question": "What is on the left of the green blanket from the bed in the bedroom off the hallway?",
+    "answer": "I don't know, there isn't a green blanket there—it's a gray plaid blanket.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "How is the server rack placed in the apartment?",
+    "answer": "I don't know, there is no server rack in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     8,
+     9
+    ],
+    "question": "Where is my stuffed horse toy?",
+    "answer": "On the floor between the sliding glass doors and the stone fireplace in the living room.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": 37,
+    "question": "Where can I set down a drink while sitting on the couch in the living area at the end of the hallway?",
+    "answer": "On the ottoman in front of the couch.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "frame_index": [
+     127,
+     128,
+     129
+    ],
+    "question": "How many wooden chairs are lined up along the walls in the bedroom with the single plaid bed?",
+    "answer": "4",
+    "question_type": "Object Counting",
+    "subtype": "Local Counting"
+   }
+  ],
+  "question_id": "00539-zUG6FL9TYeR_2",
+  "episode_history": "00539-zUG6FL9TYeR",
+  "position": [
+   2.23352,
+   -0.48277,
+   3.48521
+  ],
+  "rotation": [
+   0,
+   0.43648,
+   0,
+   0.89972
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

@@ -1,0 +1,115 @@
+[
+ {
+  "QA_list": [
+   {
+    "question": "Where is the snowmobile positioned in the apartment?",
+    "answer": "I don't know, there is no snowmobile in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "question": "How many rugs are there in the apartment?",
+    "answer": "7",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "frame_index": [
+     58,
+     59
+    ],
+    "question": "What object is opposite the blue pillow on the sofa in the living room?",
+    "answer": "I don't know, that's the wrong attribute—there are no blue pillows on the sofa, only beige ones.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "frame_index": 12,
+    "question": "Where in the kitchen can I make coffee?",
+    "answer": "On the left-side counter where the coffee maker sits.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "frame_index": 76,
+    "question": "What is the shape of the rug in my living room by the windows?",
+    "answer": "It is oval.",
+    "question_type": "Object Attributes",
+    "subtype": "Object Attributes"
+   }
+  ],
+  "question_id": "00023-zepmXAdrpjR_1",
+  "episode_history": "00023-zepmXAdrpjR",
+  "position": [
+   8.12417221069336,
+   0.02751,
+   1.4448398590087876
+  ],
+  "rotation": [
+   0.0,
+   0.93699,
+   0.0,
+   0.34936
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     21
+    ],
+    "question": "What is the position relationship between the washing machine and the bathtub in the bathroom?",
+    "answer": "I don't know, there is no washing machine in the bathroom with the bathtub.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "Along which path would I reach my vacuum hung on the wall cabinet hook beyond the starting block and near the scoreboard in the surveillance monitoring room?",
+    "answer": "I don't know, there is no surveillance monitoring room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": 102,
+    "question": "Where is the chair with the gray cushion in my bedroom?",
+    "answer": "In the corner between the window and the white dresser.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": [
+     14,
+     15
+    ],
+    "question": "In the storage, is there room on top of the washing machine to place a laundry basket?",
+    "answer": "Yes, the washing machine top is clear and has space.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "frame_index": 10,
+    "question": "How many white pillows are placed around the coffee table beside the fireplace?",
+    "answer": "7.",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   }
+  ],
+  "question_id": "00023-zepmXAdrpjR_2",
+  "episode_history": "00023-zepmXAdrpjR",
+  "position": [
+   5.624172210693359,
+   0.02751,
+   7.544839859008789
+  ],
+  "rotation": [
+   0.0,
+   0.91589,
+   0.0,
+   0.40143
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

@@ -1,0 +1,134 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     100,
+     105,
+     111
+    ],
+    "question": "Is the floor that connects my living room to my bedroom made of wood?",
+    "answer": "No, it looks like polished stone or tile, not wood.",
+    "question_type": "Object Attributes",
+    "subtype": "Object Attributes"
+   },
+   {
+    "frame_index": [
+     60,
+     61,
+     72
+    ],
+    "question": "Where can I place a drink in my living room while I sit on the sofa?",
+    "answer": "On the coffee table in front of the sofas.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "question": "How many beds are there in my apartment?",
+    "answer": "2",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "frame_index": [
+     35,
+     37
+    ],
+    "question": "Is the bathtub in my bathroom next to the toilet?",
+    "answer": "I don't know, there is no bathtub visible next to the toilet in these frames.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "How are the hangers put in the printing room?",
+    "answer": "I don't know, there is no printing room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00664-u5atqC7vRCY_1",
+  "episode_history": "00664-u5atqC7vRCY",
+  "position": [
+   -1.3685081005096436,
+   -0.07384654879570007,
+   4.078998565673828
+  ],
+  "rotation": [
+   0.0,
+   0.98751,
+   0.0,
+   0.15755
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     43,
+     45,
+     54
+    ],
+    "question": "Where is the small table with the red lamp in my home?",
+    "answer": "It is beside the seating area near the balcony door in the living room.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": [
+     45,
+     50,
+     59
+    ],
+    "question": "How many red sofas are in my living room seating area?",
+    "answer": "3",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": [
+     105,
+     106,
+     108
+    ],
+    "question": "Is the tall mirror closer to my front door or to my kitchen doorway?",
+    "answer": "It's closer to the front door.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "frame_index": [
+     60,
+     74,
+     75
+    ],
+    "question": "Can you grab the silver rug by the glass doors in my living room?",
+    "answer": "I don't know, there is no silver rug by the glass doors in the living room; the rug there is striped red, white, and dark blue.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "How is the tractor placed between the dining chairs in the apartment?",
+    "answer": "I don't know, there is no tractor in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00664-u5atqC7vRCY_2",
+  "episode_history": "00664-u5atqC7vRCY",
+  "position": [
+   4.758164405822754,
+   -0.22384,
+   1.8694282531738278
+  ],
+  "rotation": [
+   0.0,
+   0.3708,
+   0.0,
+   -0.92871
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

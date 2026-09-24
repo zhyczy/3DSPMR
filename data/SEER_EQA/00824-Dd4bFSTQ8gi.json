@@ -1,0 +1,110 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": 37,
+    "question": "What object is beside the red towel on the rack in the bathroom?",
+    "answer": "I don't know, there is no red towel on the rack in that bathroom.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute, local"
+   },
+   {
+    "question": "What message is shown on the ATM screen?",
+    "answer": "I don't know, there is no ATM in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment, global"
+   },
+   {
+    "frame_index": 43,
+    "question": "Where did I place the gray armchair in the living room?",
+    "answer": "Against the wall under the mirror next to the window in the living room.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": 14,
+    "question": "Is my dining table set with plates in the dining area next to the sliding door?",
+    "answer": "Yes, the dining table is set with plates.",
+    "question_type": "Object Status",
+    "subtype": "Object Status"
+   },
+   {
+    "question": "How many beds are there in the apartment?",
+    "answer": "3",
+    "question_type": "Global Counting",
+    "subtype": "object counting"
+   }
+  ],
+  "question_id": "00824-Dd4bFSTQ8gi_1",
+  "episode_history": "00824-Dd4bFSTQ8gi",
+  "position": [
+   7.914704990386964,
+   0.07,
+   -1.8963978767395027
+  ],
+  "rotation": [
+   0.0,
+   0.707,
+   0.0,
+   0.707
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": 80,
+    "question": "What color is the stove in the living room?",
+    "answer": "I don't know, there is no stove in the living room.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "frame_index": 7,
+    "question": "How many blue armless chairs are against the wall near the front door that connects to the hallway?",
+    "answer": "2",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "question": "What is the power status of the toaster on the station beside the charging station in the photo darkroom?",
+    "answer": "I don't know, there is no photo darkroom in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": 7,
+    "question": "Where can I sit to take off my shoes when I enter through the front door?",
+    "answer": "On one of the two blue chairs by the front door.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "frame_index": [
+     15,
+     16
+    ],
+    "question": "Is there enough space for a robot to drive between the dining table and the sliding glass door on the dining room side?",
+    "answer": "Yes, there is a clear walkway between the table and the sliding glass door.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   }
+  ],
+  "question_id": "00824-Dd4bFSTQ8gi_2",
+  "episode_history": "00824-Dd4bFSTQ8gi",
+  "position": [
+   6.892691135406494,
+   0.06882420182228088,
+   1.4872137308120728
+  ],
+  "rotation": [
+   0.37141478061676025,
+   0.0,
+   0.9284670948982239,
+   0.0
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

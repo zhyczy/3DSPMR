@@ -1,0 +1,126 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     0,
+     10,
+     18
+    ],
+    "question": "Is the floor in my bedroom and the upstairs hall made of wood?",
+    "answer": "Yes, both areas have wooden flooring.",
+    "question_type": "Object Attributes",
+    "subtype": "Object Attributes"
+   },
+   {
+    "frame_index": [
+     46,
+     47
+    ],
+    "question": "Where did I leave the black round speaker in my child's room?",
+    "answer": "It's on the small white nightstand next to the car bed under the window.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "question": "How many beds are in my apartment?",
+    "answer": "3",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "frame_index": 37,
+    "question": "Can you bring me the blue pillow from the bed in my office?",
+    "answer": "I don't know, there is no blue pillow on the bed in the office.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "Where is the horse positioned in the apartment?",
+    "answer": "I don't know, there is no horse in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00109-GTV2Y73Sn5t_1",
+  "episode_history": "00109-GTV2Y73Sn5t",
+  "position": [
+   -5.50629,
+   0.04945,
+   1.71715
+  ],
+  "rotation": [
+   0,
+   0.72414,
+   0,
+   -0.68965
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     7,
+     8,
+     19
+    ],
+    "question": "Where can I store more clothes near my bedroom?",
+    "answer": "In the walk-in closet off the bedroom, on the hanging rack or the cubby shelves.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "frame_index": 42,
+    "question": "How many windows are in my child's room?",
+    "answer": "2",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": [
+     8,
+     9
+    ],
+    "question": "Is there room on the cubby shelf in my closet for another folded item?",
+    "answer": "Yes, at least one cubby appears empty and could hold another folded item.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "frame_index": [
+     7,
+     8,
+     9,
+     19
+    ],
+    "question": "Is the microwave in my closet next to the hanging clothes?",
+    "answer": "I don't know, there is no microwave in the closet next to the hanging clothes.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "What is the power status of the tablet in the climbing gym?",
+    "answer": "I don't know, there is no climbing gym in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00109-GTV2Y73Sn5t_2",
+  "episode_history": "00109-GTV2Y73Sn5t",
+  "position": [
+   0.09204502105712997,
+   0.04945,
+   -0.8238449096679688
+  ],
+  "rotation": [
+   0,
+   0.67661,
+   0,
+   -0.73634
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

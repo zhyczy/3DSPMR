@@ -1,0 +1,118 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     137,
+     138,
+     139
+    ],
+    "question": "Can I fit a narrow laundry basket in the space between my bed and the windowside wall?",
+    "answer": "Yes, there appears to be enough space for a narrow laundry basket there.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "frame_index": 161,
+    "question": "Where can I store office items out of sight in this room?",
+    "answer": "In the cabinets and drawers built into the wooden desk hutch.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "frame_index": 38,
+    "question": "How many windows are in my bedroom by the bed?",
+    "answer": "3",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": 161,
+    "question": "What is the relationship between the microwave and the desk in my office area?",
+    "answer": "I don't know, there is no microwave in the office area.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "Where is the treadmill stored near the kitchen table in the apartment?",
+    "answer": "I don't know, there is no treadmill in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00172-bB6nKqfsb1z_1",
+  "episode_history": "00172-bB6nKqfsb1z",
+  "position": [
+   2.08158,
+   0.06005,
+   8.42216
+  ],
+  "rotation": [
+   0,
+   0.15606,
+   0,
+   0.98775
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     105,
+     109,
+     114
+    ],
+    "question": "What is beneath the blue curtains in my bedroom?",
+    "answer": "I don't know, there are no blue curtains in the bedroom, only window blinds.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "Which rack is intended to cool my pot after washing near the rope barrier in the sewing room?",
+    "answer": "I don't know, there is no sewing room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "question": "How many beds are in my apartment?",
+    "answer": "2",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "frame_index": 66,
+    "question": "What is the large stuffed animal sitting on the floor by the windows in my bedroom?",
+    "answer": "It's a teddy bear.",
+    "question_type": "Object Recognition",
+    "subtype": "Object Recognition"
+   },
+   {
+    "frame_index": [
+     160,
+     161
+    ],
+    "question": "Where did I leave my computer monitor in the office area?",
+    "answer": "It's on the corner section of the wooden L-shaped desk, under the hutch.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   }
+  ],
+  "question_id": "00172-bB6nKqfsb1z_2",
+  "episode_history": "00172-bB6nKqfsb1z",
+  "position": [
+   -4.300668239593506,
+   0.11005091667175293,
+   11.748701095581055
+  ],
+  "rotation": [
+   0,
+   0.92262,
+   0,
+   0.38571
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

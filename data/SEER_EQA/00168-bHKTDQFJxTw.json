@@ -1,0 +1,134 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     12,
+     9
+    ],
+    "question": "What is put around the red glowing cube from the seating area?",
+    "answer": "I don't know, there are no red glowing cubes there, only blue ones.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "What is put on my bed?",
+    "answer": "I don't know, there is no bed in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     131,
+     136,
+     138
+    ],
+    "question": "Is the red pole closer to the bar counter or to the DJ booth?",
+    "answer": "Closer to the bar counter.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "frame_index": [
+     1,
+     0
+    ],
+    "question": "If I need to chill some bottles, where in the bar area should I put them?",
+    "answer": "In the glass-door fridges under the bar counter.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "frame_index": [
+     193,
+     195,
+     199
+    ],
+    "question": "How many bar counters are there?",
+    "answer": "2",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   }
+  ],
+  "question_id": "00168-bHKTDQFJxTw_1",
+  "episode_history": "00168-bHKTDQFJxTw",
+  "position": [
+   4.86017,
+   0.11209,
+   -0.44918
+  ],
+  "rotation": [
+   0,
+   0.14297,
+   0,
+   0.98973
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     20,
+     36
+    ],
+    "question": "Where is the 'TOILETS' sign inside my main bar area?",
+    "answer": "I don't know, there is no 'TOILETS' sign inside the bar; it is in the hallway.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "Along which path would I reach my laundry basket in the laundry room?",
+    "answer": "I don't know, there is no laundry room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     2,
+     3,
+     4
+    ],
+    "question": "What is the green upright machine next to the booth seating along the window opposite my main bar?",
+    "answer": "An arcade machine.",
+    "question_type": "Object Recognition",
+    "subtype": "Object Recognition"
+   },
+   {
+    "frame_index": 177,
+    "question": "How many pendant lights hang along the back wall of my bar area?",
+    "answer": "3",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": [
+     14,
+     15,
+     16,
+     11
+    ],
+    "question": "Where is the black counter with the 'PLATINUM' sign located relative to my main bar?",
+    "answer": "Against the far wall opposite the bar, near the center of the room.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   }
+  ],
+  "question_id": "00168-bHKTDQFJxTw_2",
+  "episode_history": "00168-bHKTDQFJxTw",
+  "position": [
+   9.278763961791993,
+   0.11209,
+   -0.7601202964782718
+  ],
+  "rotation": [
+   0,
+   0.66868,
+   0,
+   0.74355
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

@@ -1,0 +1,48 @@
+[
+ {
+  "QA_list": [
+   {
+    "question": "I am looking for my briefcase. Is is on my office desk?",
+    "answer": "No",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "question": "What color is the office desk chair?",
+    "answer": "Green",
+    "question_type": "Object Attributes",
+    "subtype": "Object Attributes"
+   },
+   {
+    "question": "How many quilts are there in the apartment?",
+    "answer": "4",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "question": "What is placed inside the heart-shaped bathtub?",
+    "answer": "I don't know. The bathtub in this bathroom features a standard rectangular design.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "What is the status of the projector?",
+    "answer": "I don't know, there is no projector in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00356-RYzud5W7ZnC_0",
+  "episode_history": "00356-RYzud5W7ZnC",
+  "position": [
+   -4.508024,
+   0.055804163,
+   0.35101703
+  ],
+  "rotation": [
+   3.2694224637814857
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

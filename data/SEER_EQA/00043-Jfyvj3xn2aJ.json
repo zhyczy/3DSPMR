@@ -1,0 +1,131 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     25,
+     27,
+     29
+    ],
+    "question": "Is the cushion on the floor close enough to the sofa that I could use it as extra seating in the living room?",
+    "answer": "Yes, it is right next to the sofa and could be used as extra seating.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "frame_index": [
+     5,
+     6,
+     12,
+     15
+    ],
+    "question": "Where can I hang up my coat when I come in through the front door?",
+    "answer": "On the coat rack under the stairs in the entry hall.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "question": "How many basins are there in my apartment?",
+    "answer": "2",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "frame_index": [
+     26,
+     30
+    ],
+    "question": "What is beside the blue pillow on my living room sofa?",
+    "answer": "I don't know, there are no blue pillows on the sofa.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "How is the microscope placed between the dining chairs in the apartment?",
+    "answer": "I don't know, there is no microscope in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00043-Jfyvj3xn2aJ_1",
+  "episode_history": "00043-Jfyvj3xn2aJ",
+  "position": [
+   5.044334888458252,
+   -0.14124658703804016,
+   -0.7238211035728455
+  ],
+  "rotation": [
+   0.0,
+   0.97802,
+   0.0,
+   -0.20849
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     20,
+     23,
+     24,
+     26
+    ],
+    "question": "What is the material of the floor in my dining area and living room?",
+    "answer": "The floor in the dining area and living room is made of wood.",
+    "question_type": "Object Attributes",
+    "subtype": "Object Attributes"
+   },
+   {
+    "frame_index": [
+     6,
+     15
+    ],
+    "question": "Where did I leave my pet bed near the entry area?",
+    "answer": "It's on the floor under the stairs by the front door.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": 19,
+    "question": "How many dining chairs are around my wooden table?",
+    "answer": "2",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": [
+     9,
+     10,
+     11
+    ],
+    "question": "What is put on the washing machine in my bathroom?",
+    "answer": "I don't know, there is no washing machine in the bathroom.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "Where is my umbrella located between the lane marker and the maintenance counter within the paint spray booth room?",
+    "answer": "I don't know, there is no paint spray booth room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00043-Jfyvj3xn2aJ_2",
+  "episode_history": "00043-Jfyvj3xn2aJ",
+  "position": [
+   -3.9211111068725586,
+   0.01441,
+   -4.388991641998292
+  ],
+  "rotation": [
+   0.0,
+   0.7573,
+   0.0,
+   0.65307
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

@@ -1,0 +1,111 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": 13,
+    "question": "How can I make the apartment warmer?",
+    "answer": "Use the thermostat on the right wall of the hallway, near the opening to the kitchen and living room.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "frame_index": 40,
+    "question": "What is the color of the checkered tablecloth kept in the storage room?",
+    "answer": "I don't know, there is no checkered tablecloth in the storage room.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "frame_index": "layout",
+    "question": "How many beds are there in all the bedrooms?",
+    "answer": "Three.",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "question": "Where is my vacuum next to the camera tripod zone within the photo darkroom?",
+    "answer": "I don't know, there is no photo darkroom in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": 16,
+    "question": "Where is the bunk bed?",
+    "answer": "It is positioned opposite the bookshelf, near the white curtain, in the bedroom with green rugs.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   }
+  ],
+  "question_id": "00299-bdp1XNEdvmW_1",
+  "episode_history": "00299-bdp1XNEdvmW",
+  "position": [
+   2.26165,
+   0.04179,
+   7.07442
+  ],
+  "rotation": [
+   0.0,
+   0.83883,
+   0.0,
+   -0.54439
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     24,
+     25
+    ],
+    "question": "Is there enough space on top of the cabinet to set down a book in my bedroom where there are no rugs?",
+    "answer": "Yes, the left side of the cabinet top is clear.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "frame_index": 33,
+    "question": "In the small bedroom with the bunk bed, what is the round object sitting on top of the bookshelf?",
+    "answer": "A globe.",
+    "question_type": "Object Recognition",
+    "subtype": "Object Recognition"
+   },
+   {
+    "frame_index": 24,
+    "question": "How many books are on the cabinet in my bedroom where there are no rugs?",
+    "answer": "2",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": 16,
+    "question": "What is put on the pink-striped rug in the kids' room?",
+    "answer": "I don't know, that's the wrong attribute—the rug there isn't blue-striped; it's a green patterned rug.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "What color is the oxygen tank positioned behind the armchair in the apartment?",
+    "answer": "I don't know, there is no oxygen tank in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00299-bdp1XNEdvmW_2",
+  "episode_history": "00299-bdp1XNEdvmW",
+  "position": [
+   6.180460000038147,
+   0.04179,
+   -1.5060822486877452
+  ],
+  "rotation": [
+   0.0,
+   0.15906,
+   0.0,
+   0.98727
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

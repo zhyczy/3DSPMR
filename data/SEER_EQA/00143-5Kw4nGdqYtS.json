@@ -1,0 +1,132 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     28,
+     29,
+     34
+    ],
+    "question": "Where did I leave my table lamp in the living room?",
+    "answer": "It's on the small round side table between the two red chairs near the fireplace.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": [
+     34,
+     35
+    ],
+    "question": "How many red or pink seats are in my living room?",
+    "answer": "5",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "frame_index": [
+     3,
+     5,
+     10
+    ],
+    "question": "Is my refrigerator next to the sofa in the living room?",
+    "answer": "I don't know, there is no refrigerator in the living room.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "frame_index": [
+     34,
+     35,
+     36
+    ],
+    "question": "Can I sit near the fireplace without blocking the path to the glass door?",
+    "answer": "Yes, the chair by the fireplace leaves a passage to the door.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "question": "Along which path would I reach my shoe rack dropped onto the rubber mat in the brewing room?",
+    "answer": "I don't know, there is no brewing room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00143-5Kw4nGdqYtS_1",
+  "episode_history": "00143-5Kw4nGdqYtS",
+  "position": [
+   1.3836623430252075,
+   0.04184269905090332,
+   5.950843811035156
+  ],
+  "rotation": [
+   0,
+   0.29897,
+   0,
+   0.95426
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": 31,
+    "question": "Is the closet door next to my bathroom area open or closed?",
+    "answer": "Closed.",
+    "question_type": "Object Status",
+    "subtype": "Object Status"
+   },
+   {
+    "frame_index": [
+     34,
+     35
+    ],
+    "question": "How many red or pink seats are in my living room?",
+    "answer": "5",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": [
+     34,
+     35
+    ],
+    "question": "Can you bring me the blue sofa pillow from my living room?",
+    "answer": "I don't know, there are no blue sofa pillows in the living room; the visible pillows are pink.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "frame_index": [
+     23,
+     24
+    ],
+    "question": "Where can I prepare food in my kitchen?",
+    "answer": "On the wooden counter and peninsula in the kitchen.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "question": "Where is the trampoline stored near the kitchen table in the apartment?",
+    "answer": "I don't know, there is no trampoline in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00143-5Kw4nGdqYtS_2",
+  "episode_history": "00143-5Kw4nGdqYtS",
+  "position": [
+   1.2255559921264654,
+   0.04184,
+   1.2994853019714352
+  ],
+  "rotation": [
+   0,
+   0.12375,
+   0,
+   -0.99231
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

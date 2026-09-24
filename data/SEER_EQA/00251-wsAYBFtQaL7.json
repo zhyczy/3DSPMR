@@ -1,0 +1,129 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     67,
+     69,
+     70
+    ],
+    "question": "Where is my TV mounted above the bed in the bedroom?",
+    "answer": "I don't know, there is no TV visible above the bed in the bedroom.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "What is the fill level of the pan beside the mixing sink in the home DJ booth?",
+    "answer": "I don't know, there is no home DJ booth in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": 53,
+    "question": "What is the instrument leaning under the bookshelf in my office?",
+    "answer": "It's an acoustic guitar.",
+    "question_type": "Object Recognition",
+    "subtype": "Object Recognition"
+   },
+   {
+    "frame_index": [
+     234,
+     235,
+     236
+    ],
+    "question": "Where can I hang my coat when I come in through the back door near the garage?",
+    "answer": "On the wall hooks next to the back door.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "frame_index": [
+     140,
+     141
+    ],
+    "question": "How many bags are hanging on the wall hooks in my hallway?",
+    "answer": "4",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   }
+  ],
+  "question_id": "00251-wsAYBFtQaL7_1",
+  "episode_history": "00251-wsAYBFtQaL7",
+  "position": [
+   -0.8254,
+   0.03198,
+   -0.29623
+  ],
+  "rotation": [
+   0.0,
+   0.85565,
+   0.0,
+   -0.51756
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     113,
+     114
+    ],
+    "question": "What is put on the red blanket from the chair in my dining area?",
+    "answer": "I don't know, there is no red blanket on the chair in the dining area; the throw there is blue.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "What material covers the tank near the bathroom sink in the apartment?",
+    "answer": "I don't know, there is no tank in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     140,
+     141
+    ],
+    "question": "How many beds in the apartment?",
+    "answer": "3",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": 126,
+    "question": "Where did I leave my fruit bowl in the kitchen?",
+    "answer": "It's on the left corner of the kitchen counter near the window and sink.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": [
+     169,
+     174,
+     175
+    ],
+    "question": "Is there enough space to place another chair along the wall beside the dining room sideboard?",
+    "answer": "No, there is only a narrow gap there and it is already occupied by a chair.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   }
+  ],
+  "question_id": "00251-wsAYBFtQaL7_2",
+  "episode_history": "00251-wsAYBFtQaL7",
+  "position": [
+   -6.925954437255859,
+   0.03198,
+   -1.1432355880737308
+  ],
+  "rotation": [
+   0.0,
+   0.96336,
+   0.0,
+   0.26821
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

@@ -1,0 +1,125 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": 49,
+    "question": "Where is the green chair by the window in my entry room?",
+    "answer": "I don't know, there is no green chair by the window, only a wooden bench.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "frame_index": [
+     5,
+     6,
+     7
+    ],
+    "question": "Is the bathroom light on?",
+    "answer": "Yes, the bathroom light is on.",
+    "question_type": "Object Status",
+    "subtype": "Object Status"
+   },
+   {
+    "question": "How many robotic arms are near the balcony door in the apartment?",
+    "answer": "I don't know, there is no robotic arm in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     49,
+     50
+    ],
+    "question": "Where did I leave my boots in the entry room?",
+    "answer": "They are on a boot tray on the floor beside the small bookshelf near the door.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "question": "How many small rugs are on the floor in my front room by the door and window?",
+    "answer": "3",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   }
+  ],
+  "question_id": "00877-4ok3usBNeis_1",
+  "episode_history": "00877-4ok3usBNeis",
+  "position": [
+   1.25854,
+   -0.53553,
+   3.30085
+  ],
+  "rotation": [
+   0,
+   0.35276,
+   0,
+   0.93571
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "question": "What is put on the blanket in my bedroom?",
+    "answer": "I don't know, there is no blanket in the bedroom.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "frame_index": [
+     1,
+     2,
+     3
+    ],
+    "question": "Is the chair in my front room closer to the corner shelf or to the door?",
+    "answer": "It is closer to the corner shelf.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "question": "What is the power status of the bedsheet in the bowling alley?",
+    "answer": "I don't know, there is no bowling alley in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     43,
+     44
+    ],
+    "question": "Where can I hang up my coat near the hallway?",
+    "answer": "On the wall hooks in the small area next to the bathroom.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "question": "How many chairs are there in my apartment?",
+    "answer": "2",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   }
+  ],
+  "question_id": "00877-4ok3usBNeis_2",
+  "episode_history": "00877-4ok3usBNeis",
+  "position": [
+   4.726029992103577,
+   -0.53553,
+   3.4057015419006347
+  ],
+  "rotation": [
+   0.0,
+   0.35276,
+   0.0,
+   0.93571
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

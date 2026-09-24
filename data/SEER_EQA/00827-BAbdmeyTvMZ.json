@@ -1,0 +1,131 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     74,
+     75,
+     76,
+     77,
+     78
+    ],
+    "question": "Where is the lamp in my sunroom?",
+    "answer": "It's on a small white side table beside the sofa in the sunroom.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": [
+     68,
+     69,
+     70
+    ],
+    "question": "Is there enough room for another bar stool along my kitchen island?",
+    "answer": "No, the island already appears lined with stools and does not show clear space for another one.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "question": "How many beds are there in my apartment?",
+    "answer": "2",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "frame_index": [
+     35,
+     36,
+     37
+    ],
+    "question": "What is around the yellow pillow from the sofa in my living room?",
+    "answer": "I don't know, there are no yellow pillows visible on the living room sofa, only a tan one.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "How are those hangers arranged on the metal counter in the display room?",
+    "answer": "I don't know, there is no display room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00827-BAbdmeyTvMZ_1",
+  "episode_history": "00827-BAbdmeyTvMZ",
+  "position": [
+   8.58732,
+   0.01564,
+   5.42242
+  ],
+  "rotation": [
+   0.0,
+   0.97259,
+   0.0,
+   -0.23251
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     63,
+     64,
+     65
+    ],
+    "question": "Where can I hang my towel or robe in my bathroom?",
+    "answer": "On the row of wall hooks beside the shower curtain.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "frame_index": [
+     104,
+     111
+    ],
+    "question": "How many seats for sitting are visible across my living room and the side room off the hall?",
+    "answer": "5",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": [
+     41,
+     43
+    ],
+    "question": "Are the kitchen cabinets in my kitchen white?",
+    "answer": "Yes, they are white.",
+    "question_type": "Object Attributes",
+    "subtype": "Object Attributes"
+   },
+   {
+    "frame_index": 88,
+    "question": "What is the status of the washing machine in my living room?",
+    "answer": "I don't know, the washing machine is not in the living room.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "Where could I find the medical robot near the sofa in the apartment?",
+    "answer": "I don't know, there is no medical robot in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00827-BAbdmeyTvMZ_2",
+  "episode_history": "00827-BAbdmeyTvMZ",
+  "position": [
+   3.972858428955078,
+   -0.0047907233238220215,
+   4.068204879760742
+  ],
+  "rotation": [
+   0.0,
+   0.91093,
+   0.0,
+   -0.41255
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

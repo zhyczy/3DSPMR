@@ -1,0 +1,122 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": 86,
+    "question": "Is there space on top of the washing machine in my living room to place a laundry basket?",
+    "answer": "I don't know, there is no washing machine in the living room.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "frame_index": 80,
+    "question": "Where is the round wall clock?",
+    "answer": "It is mounted above the cooking area in my kitchen.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": 80,
+    "question": "How many cabinets are there in all the bedrooms?",
+    "answer": "Three.",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "question": "Which switch controls the power strip that supplies my laptop near the east rail in the brewing room?",
+    "answer": "I don't know, there is no brewing room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present, Global"
+   },
+   {
+    "frame_index": [
+     0,
+     15,
+     19
+    ],
+    "question": "If the bar stools are pulled back, can I still pass behind them to reach the glass doors in the living area?",
+    "answer": "Yes, there is clear floor space behind the stools leading to the doors.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   }
+  ],
+  "question_id": "00033-oPj9qMxrDEa_1",
+  "episode_history": "00033-oPj9qMxrDEa",
+  "position": [
+   -1.9648818969726562,
+   0.01732,
+   0.5239458084106445
+  ],
+  "rotation": [
+   0.0,
+   0.14057,
+   0.0,
+   0.99007
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": 46,
+    "question": "How many pairs of shoes are placed beneath the bench in my bedroom?",
+    "answer": "4.",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "question": "Along which path would I reach my vacuum hung on the wall cabinet hook beyond the starting block and near the scoreboard in the surveillance monitoring room?",
+    "answer": "I don't know, there is no surveillance monitoring room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     34,
+     38
+    ],
+    "question": "What is the shape of the red cushions from the sectional sofa in my living room?",
+    "answer": "I don't know, there are no red cushions on the sectional, only gray ones.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "frame_index": [
+     100,
+     101,
+     102
+    ],
+    "question": "How many chairs are along the side of my dining table that faces the living room?",
+    "answer": "4",
+    "question_type": "Object Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": [
+     8,
+     9
+    ],
+    "question": "Where can I hang my coat when I come in the front door?",
+    "answer": "On the wall-mounted coat rack to the right in the entry hallway.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   }
+  ],
+  "question_id": "00033-oPj9qMxrDEa_2",
+  "episode_history": "00033-oPj9qMxrDEa",
+  "position": [
+   -4.864881896972656,
+   0.03368,
+   1.7239458084106438
+  ],
+  "rotation": [
+   0.0,
+   0.21617,
+   0.0,
+   -0.97636
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

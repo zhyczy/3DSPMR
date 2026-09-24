@@ -1,0 +1,122 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     140,
+     141
+    ],
+    "question": "Where is the fire extinguisher near the 'produktion' doorway?",
+    "answer": "It is on the floor against the wall to the right of the 'produktion' door.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": 174,
+    "question": "Where can I sanitize my hands when I come in through my entryway?",
+    "answer": "At the sanitizer dispenser beside the wall near the doorway.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "frame_index": [
+     121,
+     122,
+     123,
+     132
+    ],
+    "question": "Can you bring me the red jacket hanging on the coat rack beside my blue wall panel?",
+    "answer": "I don't know, there is no red jacket hanging there; the jacket on the coat rack appears dark blue.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "frame_index": [
+     7,
+     8,
+     9
+    ],
+    "question": "Is the trash bin closer to my window or to the hallway entrance in the office nook?",
+    "answer": "It is closer to the window.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "question": "What material covers the elephant skeleton in the apartment?",
+    "answer": "I don't know, there is no elephant skeleton in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00831-yr17PDCnDDW_1",
+  "episode_history": "00831-yr17PDCnDDW",
+  "position": [
+   -13.99384,
+   -0.95161,
+   0.6394
+  ],
+  "rotation": [
+   0.0,
+   0.09115,
+   0.0,
+   0.99584
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": 151,
+    "question": "Is the door with the blue person symbol open or closed?",
+    "answer": "It is closed.",
+    "question_type": "Object Status",
+    "subtype": "Object Status"
+   },
+   {
+    "question": "How are those blankets are arranged on the wooden shelf in the arcade room?",
+    "answer": "I don't know, there is no arcade room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": 41,
+    "question": "How many white seats are inside the glass-walled lounge area?",
+    "answer": "3",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": [
+     260,
+     261
+    ],
+    "question": "What is the status of the microwave in the hallway under my staircase?",
+    "answer": "I don't know, there is no microwave in the hallway under the staircase.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "How many office desks are there in the scenario?",
+    "answer": "3",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   }
+  ],
+  "question_id": "00831-yr17PDCnDDW_2",
+  "episode_history": "00831-yr17PDCnDDW",
+  "position": [
+   0.12255,
+   -0.95161,
+   -5.54163
+  ],
+  "rotation": [
+   0.0,
+   0.96825,
+   0.0,
+   0.24997
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

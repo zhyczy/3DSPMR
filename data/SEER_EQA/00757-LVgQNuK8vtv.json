@@ -1,0 +1,121 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": 30,
+    "question": "What color is the microwave in my dining room?",
+    "answer": "I don't know, there is no microwave in the dining room.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "What material covers the oxygen tank near the bathroom sink in the apartment?",
+    "answer": "I don't know, there is no oxygen tank in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     30,
+     38
+    ],
+    "question": "Where can I store or display my dishes in the dining room?",
+    "answer": "In the glass-front china cabinet by the window.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "frame_index": 72,
+    "question": "How many upholstered seats are in my sunroom?",
+    "answer": "3",
+    "question_type": "Object Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": [
+     29,
+     30,
+     38
+    ],
+    "question": "Is my dining table closer to the kitchen doorway or to the green sofa in the sitting room?",
+    "answer": "It is closer to the kitchen doorway.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   }
+  ],
+  "question_id": "00757-LVgQNuK8vtv_1",
+  "episode_history": "00757-LVgQNuK8vtv",
+  "position": [
+   -7.91264,
+   -0.00634,
+   3.07689
+  ],
+  "rotation": [
+   0.0,
+   0.56255,
+   0.0,
+   -0.82676
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     52,
+     59
+    ],
+    "question": "Where is the brown recliner in my living room?",
+    "answer": "I don't know, there is no brown recliner in the living room, it is white.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "How are the scissors stacked on the wire rack in the shooting range?",
+    "answer": "I don't know, there is no shooting range in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "question": "How many sofas are in my apartment?",
+    "answer": "4",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "frame_index": 30,
+    "question": "What is the hanging light fixture above my dining table?",
+    "answer": "It's a chandelier.",
+    "question_type": "Object Recognition",
+    "subtype": "Object Recognition"
+   },
+   {
+    "frame_index": [
+     32,
+     33,
+     36
+    ],
+    "question": "Where did I leave my coffee maker?",
+    "answer": "It's on the kitchen counter to the right of the refrigerator.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   }
+  ],
+  "question_id": "00757-LVgQNuK8vtv_2",
+  "episode_history": "00757-LVgQNuK8vtv",
+  "position": [
+   -12.266994667053222,
+   -0.00634,
+   0.4374622344970702
+  ],
+  "rotation": [
+   0.0,
+   0.59402,
+   0.0,
+   -0.80445
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

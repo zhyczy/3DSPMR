@@ -1,0 +1,94 @@
+[
+ {
+  "QA_list": [
+   {
+    "question": "I'm trying to remember where I placed the decorative vase with branches.",
+    "answer": "On the sideboard in the hallway",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "question": "I'm expecting guests and need to set the table. How many chairs are missing around the dining table?",
+    "answer": "Two",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "question": "How many toilets are there in the apartment?",
+    "answer": "3",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "question": "What is the color of the printer in my living room?",
+    "answer": "I don't know. The printer is at study room not living room.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "Along which way could I find my left camera in the bar?",
+    "answer": "I don't know. There is no bar in my apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00202-yVbpFay8gTU_0",
+  "episode_history": "00202-yVbpFay8gTU",
+  "position": [
+   3.816451,
+   -3.315504,
+   -2.1051002
+  ],
+  "rotation": [
+   6.197148653414006
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "question": "I want to shower now. Are there towels on the bathtub?",
+    "answer": "Yes, there are",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "question": "How are my pants placed in my bedroom?",
+    "answer": "I don't know. The pants are currently hung in the cloakroom rather than being placed in the bedroom.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "Did I put away the teepee or is it still on the bedroom floor?",
+    "answer": "It is still there",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "question": "Where are my table tennis rackets in my table tennis room?",
+    "answer": "I don't know. There is no table tennis room in this apartment",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "question": "How many beds are there in the apartment?",
+    "answer": "5",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   }
+  ],
+  "question_id": "00202-yVbpFay8gTU_1",
+  "episode_history": "00202-yVbpFay8gTU",
+  "position": [
+   -2.764595,
+   0.08449578,
+   -4.5803175
+  ],
+  "rotation": [
+   4.295856058430267
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

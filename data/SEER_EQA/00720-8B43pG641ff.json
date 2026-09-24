@@ -1,0 +1,48 @@
+[
+ {
+  "QA_list": [
+   {
+    "question": "What is put on the purple bed in the bedroom?",
+    "answer": "I don't know, the bed is white nor purple.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "Where is my trash bin in the gymnastics practice room?",
+    "answer": "I don't know, there is no gymnastics practice room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "question": "Did my daughter remember to put the piano lid down?",
+    "answer": "No, it is up.",
+    "question_type": "Object Status",
+    "subtype": "Object Status"
+   },
+   {
+    "question": "How many chairs do we have around the outdoor dining table?",
+    "answer": "Six.",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "question": "How many beds are there in the apartment?",
+    "answer": "Two",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   }
+  ],
+  "question_id": "00720-8B43pG641ff_1",
+  "episode_history": "00720-8B43pG641ff",
+  "position": [
+   -1.083091,
+   0.05302763,
+   0.36279058
+  ],
+  "rotation": [
+   1.8771187
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

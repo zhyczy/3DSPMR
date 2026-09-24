@@ -1,0 +1,125 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": 30,
+    "question": "Is the lid on the laundry hamper in the bathroom open or closed?",
+    "answer": "Closed.",
+    "question_type": "Object Status",
+    "subtype": "Object Status"
+   },
+   {
+    "frame_index": [
+     3,
+     6,
+     7
+    ],
+    "question": "How many small rugs are on the floor in my striped-bed bedroom?",
+    "answer": "2",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "question": "How many radiators are in all the bedrooms?",
+    "answer": "4.",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "question": "How is the billiard table placed in the apartment?",
+    "answer": "I don't know, there is no billiard table in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "frame_index": 29,
+    "question": "What is beside the blue mat in my bathroom with a bathtub?",
+    "answer": "I don't know, that's the wrong attribute—the bath mat is dark purple, not blue.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   }
+  ],
+  "question_id": "00234-nACV8wLu1u5_1",
+  "episode_history": "00234-nACV8wLu1u5",
+  "position": [
+   -3.0194321155548094,
+   0.01446,
+   -2.9345684528350837
+  ],
+  "rotation": [
+   0,
+   0.50521,
+   0,
+   -0.863
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     3,
+     4,
+     5
+    ],
+    "question": "Where is the TV placed?",
+    "answer": "On a wooden shelving unit near the window at the foot of the bed in my striped-bed bedroom.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": [
+     60,
+     61
+    ],
+    "question": "What is the relative position of the bathtub with respect to the radiator in this corner room?",
+    "answer": "I don't know, there is no bathtub in this room.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "frame_index": [
+     33,
+     34,
+     35
+    ],
+    "question": "From the landing at the top of the stairs, are there two rooms opposite—an empty room on the left and a room with a potted plant on the right?",
+    "answer": "Yes, the left doorway leads to the empty room and the right to the room with the plant.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "question": "Where is my phone charger on the vent hood within the foundry?",
+    "answer": "I don't know, there is no foundry in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     24,
+     25
+    ],
+    "question": "If I want a drink of water by my bed, where can I set the glass in the blue-wall bedroom?",
+    "answer": "On the bedside table beside the bed.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   }
+  ],
+  "question_id": "00234-nACV8wLu1u5_2",
+  "episode_history": "00234-nACV8wLu1u5",
+  "position": [
+   3.0665,
+   0.01446,
+   -2.58224
+  ],
+  "rotation": [
+   0,
+   0.06325,
+   0,
+   -0.998
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

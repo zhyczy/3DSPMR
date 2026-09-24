@@ -1,0 +1,48 @@
+[
+ {
+  "QA_list": [
+   {
+    "question": "I'm trying to remember where I placed the table tennis paddles. Are they on or near the ping pong table?",
+    "answer": "On the ping pong table",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "question": "How many sofas are there in the apartment?",
+    "answer": "2",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "question": "How many bar stools we have in the basement?",
+    "answer": "Two",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "question": "Where did I put my lamp in my bedroom?",
+    "answer": "I don't know. There is no bedroom in my apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "question": "How is my potted plant positioned in the kitchen?",
+    "answer": "I don't know. The potted plant is located in the entertainment area, not the kitchen.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   }
+  ],
+  "question_id": "00159-DfUQLukPMPc_0",
+  "episode_history": "00159-DfUQLukPMPc",
+  "position": [
+   -4.5432215,
+   -2.8592098,
+   1.0500478
+  ],
+  "rotation": [
+   3.040906209194016
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

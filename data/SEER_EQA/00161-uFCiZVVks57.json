@@ -1,0 +1,48 @@
+[
+ {
+  "QA_list": [
+   {
+    "question": "Where did I put the fire extinguisher in my kitchen?",
+    "answer": "I don't know. The fire extinguisher is put together in the storage room, not the kitchen.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "Along which path would I reach my trash bin kept inside the locker in the basketball court?",
+    "answer": "I don't know, there is no basketball court in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "question": "How many beds are there in the apartment?",
+    "answer": "4",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "question": "I'm trying to remember how many plates I put on the dining table.",
+    "answer": "Eight",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "question": "I need to find the orange chair. Where is it?",
+    "answer": "In the bedroom with the fireplace",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   }
+  ],
+  "question_id": "00161-uFCiZVVks57_0",
+  "episode_history": "00161-uFCiZVVks57",
+  "position": [
+   -13.212174,
+   0.18684712,
+   2.3584187
+  ],
+  "rotation": [
+   2.0586669437280554
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

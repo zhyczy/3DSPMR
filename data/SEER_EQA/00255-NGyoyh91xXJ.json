@@ -1,0 +1,118 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": "layout",
+    "question": "How many different colors of rugs are present in all the bathrooms?",
+    "answer": "3.",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "frame_index": 87,
+    "question": "What is behind the pink tissue box on the nightstand in my bedroom with the blue rug??",
+    "answer": "I don't know, there is no pink tissue box on the nightstand, only a beige one.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "What color is the tank beside the sofa?",
+    "answer": "I don't know, there is no tank in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "frame_index": 38,
+    "question": "Where is the pair of small gold decorative sculptures?",
+    "answer": "On top of the black side table between the two armchairs by the window in my living room",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": [
+     25,
+     26
+    ],
+    "question": "What fruits did I leave in the fruit bowl after cooking?",
+    "answer": "Bananas and apples.",
+    "question_type": "Object Recogniztion",
+    "subtype": "Object Recogniztion"
+   }
+  ],
+  "question_id": "00255-NGyoyh91xXJ_1",
+  "episode_history": "00255-NGyoyh91xXJ",
+  "position": [
+   7.183351230621339,
+   0.04208,
+   5.459860897064209
+  ],
+  "rotation": [
+   0.0,
+   0.71062,
+   0.0,
+   -0.70358
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     27,
+     28,
+     18,
+     29
+    ],
+    "question": "Given how the dining area is arranged, is there room to add another chair around my dining table?",
+    "answer": "No, it is already surrounded by six chairs and would be crowded with another.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "frame_index": 62,
+    "question": "What object could be put between the refrigerator and nightstand in my master bedroom?",
+    "answer": "I don't know, there is no refrigerator in the master bedroom.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "frame_index": [
+     136
+    ],
+    "question": "Where can I hang my jackets in the bedroom with the yellow rug?",
+    "answer": "On the hanging rail inside the open wardrobe by the door.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "question": "Where is my pot inside the equipment shelf within the paint spray booth room?",
+    "answer": "I don't know, there is no paint spray booth room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": 163,
+    "question": "How many white pillows are in the bedroom with the brown bed?",
+    "answer": "2",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   }
+  ],
+  "question_id": "00255-NGyoyh91xXJ_2",
+  "episode_history": "00255-NGyoyh91xXJ",
+  "position": [
+   2.41761,
+   0.04208,
+   1.39013
+  ],
+  "rotation": [
+   0.0,
+   0.98095,
+   0.0,
+   0.19426
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

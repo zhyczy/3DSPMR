@@ -34,7 +34,8 @@ multi-modal navigation, with both feasible and infeasible objectives.
 
 - **2026-09** — Accepted to **NeurIPS 2026**. 🎉🎉🎉
 - **2026-09** — Code release in preparation; this repository is being organized and will be updated shortly.
-- **2026-05** — A subset of the SEER-Bench EQA annotations is available under [`data/`](data/).
+- **2026-09** — The **full SEER-Bench EQA annotations** (60 scenes) are released under [`data/SEER_EQA/`](data/SEER_EQA/).
+- **2026-05** — A subset of the SEER-Bench EMN annotations is available under [`data/`](data/).
 
 ## Abstract
 
@@ -71,9 +72,9 @@ Code is being cleaned up for release. Planned contents:
 
 ```
 3DSPMR/
-├── data/                 # SEER-Bench annotations  (EQA + EMN subsets available)
-│   ├── SEER_EQA.json
-│   └── SEER_EMN/v1/      # one file per HM3DSem scene
+├── data/                 # SEER-Bench annotations
+│   ├── SEER_EQA/         # full EQA track, one file per HM3DSem scene
+│   └── SEER_EMN/v1/      # EMN subset, one file per HM3DSem scene
 ├── fig/                  # figures used in this README
 ├── 3dspmr/               # TODO: unified spatial memory, Geo-Reasoning, Geo-Sem exploration
 ├── configs/              # TODO: scene lists, backbone / hyper-parameter configs
@@ -83,17 +84,18 @@ Code is being cleaned up for release. Planned contents:
 
 | Item | Status |
 |---|---|
-| SEER-Bench EQA annotations (full, 60 scenarios) | 🚧 to be released |
-| SEER-Bench EMN annotations (full, 60 scenarios) | 🚧 to be released |
+| SEER-Bench EQA annotations (full, 60 scenes) | ✅ [`data/SEER_EQA/`](data/SEER_EQA/) |
+| SEER-Bench EMN annotations (full, 60 scenes) | 🚧 to be released |
 | 3DSPMR implementation | 🚧 to be released |
 
 
 ## Data
 
-### EQA — `data/SEER_EQA.json`
+### EQA — `data/SEER_EQA/<scene>.json`
 
-A released subset of the SEER-Bench EQA annotations: **24 episodes over 12 HM3DSem scenes, 5 questions each
-(120 questions)**, of which 48 are unanswerable. Each entry is one episode:
+The full SEER-Bench EQA annotations: **60 HM3DSem scenes, 110 episodes, 5 questions each (550 questions)**,
+of which 220 are unanswerable (40.0%). Most scenes carry two episodes with different start poses and different
+question chains. Each file holds the episodes of one scene, as a list; each entry is one episode:
 
 ```jsonc
 {

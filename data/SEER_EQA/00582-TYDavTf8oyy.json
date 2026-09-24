@@ -1,0 +1,121 @@
+[
+ {
+  "QA_list": [
+   {
+    "question": "How many mirrors in the apartment?",
+    "answer": "2.",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "question": "How is the drone placed between the dining chairs in the apartment?",
+    "answer": "I don't know, there is no drone in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     9,
+     16
+    ],
+    "question": "What is the material of the ladder in my living room?",
+    "answer": "I don't know; that's the wrong location—the ladder is in the garage, not the living room.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "frame_index": 31,
+    "question": "Is there enough space to put another washer between the washer and dryer in my laundry room?",
+    "answer": "No, the washer and dryer are already side by side.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "frame_index": [
+     9,
+     16
+    ],
+    "question": "Where can I conduct aerobic exercise with devices?",
+    "answer": "You can use the elliptical machine in my garage.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   }
+  ],
+  "question_id": "00582-TYDavTf8oyy_1",
+  "episode_history": "00582-TYDavTf8oyy",
+  "position": [
+   5.0658,
+   0.01203,
+   -5.75671
+  ],
+  "rotation": [
+   0.0,
+   0.00513,
+   0.0,
+   0.99999
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     44,
+     45,
+     46
+    ],
+    "question": "What's the white device sitting on the desk under the window in my small office off the hallway?",
+    "answer": "It's a printer.",
+    "question_type": "Object Recognition",
+    "subtype": "Object Recognition"
+   },
+   {
+    "frame_index": 51,
+    "question": "Where are my pet’s food and water bowls located?",
+    "answer": "On a raised feeder on the kitchen floor next to the refrigerator.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": [
+     71
+    ],
+    "question": "How many small potted plants are on the kitchen windowsill above the sink?",
+    "answer": "3",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": [
+     33
+    ],
+    "question": "How are the dining chairs that upholstered in brown fabric arranged around the kitchen table?",
+    "answer": "I don't know, that's the wrong attribute—the chairs are wooden, not blue upholstered.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "Where is my knife under the corner C within the brewing room?",
+    "answer": "I don't know, there is no brewing room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00582-TYDavTf8oyy_2",
+  "episode_history": "00582-TYDavTf8oyy",
+  "position": [
+   6.55817,
+   0.01203,
+   -6.31376
+  ],
+  "rotation": [
+   0.0,
+   0.59824,
+   0.0,
+   0.80132
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

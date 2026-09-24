@@ -1,0 +1,48 @@
+[
+ {
+  "QA_list": [
+   {
+    "question": "I need to locate my painting with boats on it. Where are they hung?",
+    "answer": "In the bedroom",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "question": "What is the positional relationship between the washer and the dryer in my kitchen?",
+    "answer": "I don't know. The washer and dryer are put together in the laundry room, not the kitchen.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "How many sets of utensils are there on the dining table?",
+    "answer": "None",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "question": "Where did I leave my folder in my study room?",
+    "answer": "I don't know. There is no study room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "question": "How many beds are there in the apartment?",
+    "answer": "3",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   }
+  ],
+  "question_id": "00458-fFx6oC7EVp7_0",
+  "episode_history": "00458-fFx6oC7EVp7",
+  "position": [
+   4.741235,
+   0.013928607,
+   -0.17728962
+  ],
+  "rotation": [
+   2.6380172078963344
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

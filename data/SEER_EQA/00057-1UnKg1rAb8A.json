@@ -1,0 +1,133 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     28,
+     31
+    ],
+    "question": "How many adult-sized beds are in my apartment?",
+    "answer": "3",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "frame_index": [
+     49,
+     50
+    ],
+    "question": "Can you grab the blue comforter from the bed in the master bedroom?",
+    "answer": "I don't know, that's the wrong attribute; the comforter on that bed is red, not blue.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "Where did I leave the robotic arm after cleaning yesterday in the apartment?",
+    "answer": "I don't know, there is no robotic arm in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     17,
+     18,
+     12
+    ],
+    "question": "Where is the standing fan in the bedroom with the floral curtains?",
+    "answer": "Between the bed and the closet, next to the window.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": [
+     7,
+     9
+    ],
+    "question": "How many upholstered chairs are in the hallway seating area?",
+    "answer": "2",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   }
+  ],
+  "question_id": "00057-1UnKg1rAb8A_1",
+  "episode_history": "00057-1UnKg1rAb8A",
+  "position": [
+   4.03874,
+   0.01056,
+   3.06448
+  ],
+  "rotation": [
+   0.0,
+   0.5298,
+   0.0,
+   0.84813
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     0,
+     8
+    ],
+    "question": "Is the shoe rack in my living room?",
+    "answer": "I don't know, there is no shoe rack in the living room.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "What color is the trash bin placed inside the carport?",
+    "answer": "I don't know, there is no carport in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     27,
+     31
+    ],
+    "question": "If I need a place for the baby to sleep in that bedroom, what can I use?",
+    "answer": "Use the crib or playpen next to the doorway and console table.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "frame_index": [
+     36,
+     37
+    ],
+    "question": "When I come up the stairs, is there a small seating nook immediately at the landing?",
+    "answer": "Yes, a pair of chairs is right at the landing.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "frame_index": [
+     3,
+     4
+    ],
+    "question": "What is the tall black rack next to the dresser in the bedroom with the red bedspread?",
+    "answer": "It's a shoe rack.",
+    "question_type": "Object Recognition",
+    "subtype": "Object Recognition"
+   }
+  ],
+  "question_id": "00057-1UnKg1rAb8A_2",
+  "episode_history": "00057-1UnKg1rAb8A",
+  "position": [
+   2.25976,
+   0.05094,
+   1.81127
+  ],
+  "rotation": [
+   0.0,
+   0.77049,
+   0.0,
+   0.63746
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

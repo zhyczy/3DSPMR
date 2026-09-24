@@ -1,0 +1,123 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     98
+    ],
+    "question": "What is beneath my printer in the living room?",
+    "answer": "I don't know; the printer is in the office, not the living room.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "What material is the phone charger placed near the wall cabinet inside the display room?",
+    "answer": "I don't know, there is no display room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     4,
+     18,
+     19
+    ],
+    "question": "If I need to check the time before guests arrive, what can I use near the dining room?",
+    "answer": "The grandfather clock in the dining room by the foyer.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "question": "How many armchairs are in all the living rooms?",
+    "answer": "4.",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "frame_index": [
+     47,
+     54
+    ],
+    "question": "What is the material of the built-in cabinets in the office off the main hallway?",
+    "answer": "They are wooden.",
+    "question_type": "Object Attributes",
+    "subtype": "Object Attributes"
+   }
+  ],
+  "question_id": "00149-UuwwmrTsfBN_1",
+  "episode_history": "00149-UuwwmrTsfBN",
+  "position": [
+   0.51565,
+   0.0087,
+   -2.47558
+  ],
+  "rotation": [
+   0.0,
+   0.9214,
+   0.0,
+   -0.38862
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": 11,
+    "question": "What is put beneath my dining chairs covered in black leather?",
+    "answer": "I don't know, the dining chairs are not black leather; they are fabric-upholstered wooden chairs.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "How much space does the jet ski take in the apartment?",
+    "answer": "I don't know, there is no jet ski in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     85,
+     86
+    ],
+    "question": "How many framed paintings are in the living room with the fireplace?",
+    "answer": "3",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": [
+     3,
+     6,
+     8
+    ],
+    "question": "Where is the china cabinet located within my dining room?",
+    "answer": "Against the wall opposite the three windows.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": 103,
+    "question": "From the foyer, is the staircase directly beside the opening that leads into my front sitting room?",
+    "answer": "Yes, the stairs are immediately next to that doorway.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   }
+  ],
+  "question_id": "00149-UuwwmrTsfBN_2",
+  "episode_history": "00149-UuwwmrTsfBN",
+  "position": [
+   2.0288,
+   0.0087,
+   -0.73702
+  ],
+  "rotation": [
+   0.0,
+   0.92266,
+   0.0,
+   -0.38562
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

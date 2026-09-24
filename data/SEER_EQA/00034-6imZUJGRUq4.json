@@ -1,0 +1,127 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": 39,
+    "question": "Is the ladder leaning by my garage stairs yellow?",
+    "answer": "Yes, it is yellow.",
+    "question_type": "Object",
+    "subtype": "Object Attributes"
+   },
+   {
+    "frame_index": [
+     47,
+     50
+    ],
+    "question": "What in my garage could I use to move heavy boxes more easily?",
+    "answer": "You could use the hand truck near the grill.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "frame_index": [
+     9,
+     19
+    ],
+    "question": "How many bicycles are in my garage?",
+    "answer": "2",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": [
+     29,
+     30,
+     37,
+     38,
+     39
+    ],
+    "question": "Is the washing machine next to my garage stairs?",
+    "answer": "I don't know, there is no washing machine next to the garage stairs.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "Where did I put my microwave in the kitchen?",
+    "answer": "I don't know, there is no kitchen in the environment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00034-6imZUJGRUq4_1",
+  "episode_history": "00034-6imZUJGRUq4",
+  "position": [
+   -8.37253,
+   -1.58991,
+   -5.02795
+  ],
+  "rotation": [
+   0,
+   0.96694,
+   0,
+   0.25502
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     30,
+     38,
+     39
+    ],
+    "question": "Is there enough open floor space in front of my garage stairs for someone to stand and walk up?",
+    "answer": "Yes, there is enough open floor space in front of the stairs.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "frame_index": [
+     9,
+     19
+    ],
+    "question": "Where did I leave my bicycles in the garage?",
+    "answer": "They are against the far wall near the red tool chest and beside the black grill.",
+    "question_type": "Location",
+    "subtype": "Location"
+   },
+   {
+    "frame_index": 23,
+    "question": "Can you grab the blue bicycle from beside my grill?",
+    "answer": "I don't know, there are no blue bicycles beside the grill; the visible bicycles are red and dark-colored.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "frame_index": 44,
+    "question": "How many garage doors are visible in my garage?",
+    "answer": "2",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "question": "Which cabinet holds the chinaware in the scenario?",
+    "answer": "I don't know, there is no chinaware in the scenario.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00034-6imZUJGRUq4_2",
+  "episode_history": "00034-6imZUJGRUq4",
+  "position": [
+   -1.6990376710891724,
+   -1.4899135828018188,
+   -0.03928156942129135
+  ],
+  "rotation": [
+   0,
+   0.09258,
+   0,
+   -0.99571
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

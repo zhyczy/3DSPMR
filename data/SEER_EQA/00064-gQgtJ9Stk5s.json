@@ -1,0 +1,128 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     37,
+     38,
+     39
+    ],
+    "question": "Can I hang ten suits in the walk-in closet of my green bedroom?",
+    "answer": "No, there isn’t enough space.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "frame_index": [
+     37,
+     21,
+     22,
+     23
+    ],
+    "question": "How many paintings can you see hanging on the wall in my green bedroom??",
+    "answer": "8.",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": [
+     7,
+     0
+    ],
+    "question": "What object is placed on top of the blue pillows on the bed in my purple bedroom?",
+    "answer": "I don't know, there are no blue pillows on that bed, only red ones.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "How many beds are there in the apartment?",
+    "answer": "Eight.",
+    "question_type": "Global COunting",
+    "subtype": "Global COunting"
+   },
+   {
+    "question": "Where did I set up my Christmas tree in the living room?",
+    "answer": "I don't know, there is no crane in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00064-gQgtJ9Stk5s_1",
+  "episode_history": "00064-gQgtJ9Stk5s",
+  "position": [
+   -7.301556587219238,
+   0.03341,
+   5.012211227416992
+  ],
+  "rotation": [
+   0.0,
+   0.27021,
+   0.0,
+   -0.9628
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": 45,
+    "question": "What’s the electronic instrument on the stand next to my desk with two speakers and three monitors?",
+    "answer": "It's an electronic keyboard.",
+    "question_type": "Object Recognition",
+    "subtype": "Object Recognition"
+   },
+   {
+    "frame_index": [
+     40,
+     45
+    ],
+    "question": "What is the status of the keyboard in the green bedroom with the big wooden wardrobe?",
+    "answer": "I don't know, wrong location—there is no keyboard in that green bedroom; it's in the other bedroom.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "Along which path would I reach my headphones resting on a foam pad after the service hatch and before the vent hood in the display room?",
+    "answer": "I don't know, there is no display room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     28,
+     33
+    ],
+    "question": "Where are my shoes kept in the green bedroom?",
+    "answer": "On the shoe rack under the window next to the bathroom door.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": [
+     51,
+     52
+    ],
+    "question": "If I want to read novels, where should I go to find them?",
+    "answer": "On the white bookshelf along the wall in the hallway.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   }
+  ],
+  "question_id": "00064-gQgtJ9Stk5s_2",
+  "episode_history": "00064-gQgtJ9Stk5s",
+  "position": [
+   -9.3411,
+   0.03341,
+   7.76994
+  ],
+  "rotation": [
+   0.0,
+   0.16371,
+   0.0,
+   -0.98651
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

@@ -1,0 +1,132 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     14,
+     15
+    ],
+    "question": "Where is my bedside lamp in the bedroom?",
+    "answer": "It's on the white nightstand next to the bed by the windows.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": [
+     6,
+     7
+    ],
+    "question": "Could I roll my desk chair directly up to the desk in my office?",
+    "answer": "Yes, there is open floor space for the chair to roll up to the desk.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "question": "Which shelf holds the sculpture tower in the apartment?",
+    "answer": "I don't know, there is no sculpture tower in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     12,
+     14,
+     16,
+     17
+    ],
+    "question": "How many televisions are there in my bedroom?",
+    "answer": "2",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": [
+     4,
+     6,
+     7
+    ],
+    "question": "What is put aside the white printer?",
+    "answer": "I don't know, the printer is black not white.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   }
+  ],
+  "question_id": "00035-3XYAD64HpDr_1",
+  "episode_history": "00035-3XYAD64HpDr",
+  "position": [
+   2.15252,
+   0.03842,
+   0.28633
+  ],
+  "rotation": [
+   0,
+   0.9606,
+   0,
+   -0.27794
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     6,
+     7
+    ],
+    "question": "Where can I sit to use my computer in the office?",
+    "answer": "On the white office chair at the wooden desk.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "question": "How many pairs of dumbbells are there?",
+    "answer": "3",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "frame_index": [
+     4,
+     6,
+     7
+    ],
+    "question": "Is the microwave in my office next to the desk?",
+    "answer": "I don't know, there is no microwave in the office next to the desk.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "frame_index": [
+     0,
+     11
+    ],
+    "question": "Is the bathroom light on?",
+    "answer": "Yes, the bathroom light is on.",
+    "question_type": "Object Status",
+    "subtype": "Object Status"
+   },
+   {
+    "question": "What size is the mug placed inside the dressing room?",
+    "answer": "I don't know, there is no dressing room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00035-3XYAD64HpDr_2",
+  "episode_history": "00035-3XYAD64HpDr",
+  "position": [
+   1.4014310359954836,
+   0.03842,
+   -1.3842350006103517
+  ],
+  "rotation": [
+   0,
+   0.02494,
+   0,
+   -0.99969
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

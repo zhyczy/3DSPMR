@@ -1,0 +1,120 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": 160,
+    "question": "How many pillows are on my bed in the bedroom?",
+    "answer": "3",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": [
+     0,
+     8
+    ],
+    "question": "Are the curtains over my sliding glass door in the dining area green?",
+    "answer": "Yes, they are light green.",
+    "question_type": "Object Attributes",
+    "subtype": "Object Attributes"
+   },
+   {
+    "frame_index": [
+     92,
+     93
+    ],
+    "question": "Where can I sit down to play music in my living room?",
+    "answer": "At the piano bench in front of the piano.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "frame_index": 131,
+    "question": "What color is the microwave in my living room?",
+    "answer": "I don't know, there is no microwave in the living room.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "What is floating in the indoor swimming pool?",
+    "answer": "I don't know, there is no indoor swimming pool in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00871-VBzV5z6i1WS_1",
+  "episode_history": "00871-VBzV5z6i1WS",
+  "position": [
+   -2.22264,
+   0.04654,
+   -1.78665
+  ],
+  "rotation": [
+   0.0,
+   0.30934,
+   0.0,
+   0.95095
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "question": "How many beds are there in my apartment?",
+    "answer": "2",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "frame_index": [
+     92,
+     93
+    ],
+    "question": "Where is my piano located?",
+    "answer": "It's in the living room, against the wall to the right of the sofa and next to the grandfather clock.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": [
+     81,
+     86,
+     96
+    ],
+    "question": "Is there enough space for one more chair at my breakfast table in the kitchen nook?",
+    "answer": "No, the table is already surrounded by four chairs and there is not much open space around it.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "frame_index": 164,
+    "question": "What is the status of the purple lamp from the nightstand beside my bed?",
+    "answer": "I don't know, the lamp by the bed is not purple, it is white.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "What object is the 3D printer printing near my work desk in the apartment?",
+    "answer": "I don't know, there is no 3D printer in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00871-VBzV5z6i1WS_2",
+  "episode_history": "00871-VBzV5z6i1WS",
+  "position": [
+   1.09233,
+   -0.00346,
+   -4.47758
+  ],
+  "rotation": [
+   0.0,
+   0.59149,
+   0.0,
+   -0.80632
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

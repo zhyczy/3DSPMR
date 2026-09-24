@@ -1,0 +1,119 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     50,
+     51
+    ],
+    "question": "Where did I leave my remote control in the bedroom?",
+    "answer": "It's on the left bedside table next to the bed.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "question": "How many sofas are there in my apartment?",
+    "answer": "3",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "frame_index": 10,
+    "question": "What is the status of the microwave in my laundry room?",
+    "answer": "I don't know, there is no microwave in the laundry room.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "frame_index": 10,
+    "question": "What is the status of the ceiling light in my kitchen?",
+    "answer": "The kitchen light is on.",
+    "question_type": "Object Status",
+    "subtype": "Object Status"
+   },
+   {
+    "question": "What is size of the steamroller model near my work desk in the apartment?",
+    "answer": "I don't know, there is no steamroller model in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00706-YHmAkqgwe2p_1",
+  "episode_history": "00706-YHmAkqgwe2p",
+  "position": [
+   -2.127889633178711,
+   0.02949,
+   1.363914346694946
+  ],
+  "rotation": [
+   0.0,
+   0.89633,
+   0.0,
+   -0.4434
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": 45,
+    "question": "How many pillows are on my sectional sofa in the sitting room?",
+    "answer": "3",
+    "question_type": "Object Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": [
+     25,
+     27
+    ],
+    "question": "Where is the grey armchair beside my white sofa in the living room?",
+    "answer": "I don't know, there is no grey armchair beside the white sofa; the nearby loveseat is green.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "frame_index": [
+     44,
+     46
+    ],
+    "question": "Is there enough space on my bookcase shelves in the sitting room for another small book?",
+    "answer": "No, the shelves look mostly full.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "question": "How many notebooks are stacked on the wire rack near the practice mat in the photo darkroom?",
+    "answer": "I don't know, there is no photo darkroom in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     53,
+     56
+    ],
+    "question": "Where can I hang my robe in the bedroom?",
+    "answer": "On the standing coat rack beside the mirror near the window.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   }
+  ],
+  "question_id": "00706-YHmAkqgwe2p_2",
+  "episode_history": "00706-YHmAkqgwe2p",
+  "position": [
+   -10.65328,
+   0.02949,
+   1.90384
+  ],
+  "rotation": [
+   0.0,
+   0.97249,
+   0.0,
+   -0.23296
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

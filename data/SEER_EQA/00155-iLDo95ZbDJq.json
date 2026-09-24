@@ -1,0 +1,124 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": 38,
+    "question": "What is the shape of the mirror on the dresser located in the laundry?",
+    "answer": "I don't know, there is no dresser in the hallway; it's inside the bedroom.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "frame_index": [
+     38,
+     91,
+     111
+    ],
+    "question": "How many mirrors are in all the bedrooms?",
+    "answer": "One.",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "question": "Along which path would I reach my candle left on the wooden shelf beyond shelving bay two and beside the inspection table in the boxing ring?",
+    "answer": "I don't know, there is no boxing ring in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": 47,
+    "question": "Where is my coffee maker?",
+    "answer": "On the small counter under the two wooden shelves, to the right of the built-in microwave in the kitchen.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": [
+     72,
+     73
+    ],
+    "question": "In the dining room, where could I put or display some books and decor?",
+    "answer": "On the metal bookshelf along the wall by the doorway to the living room.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   }
+  ],
+  "question_id": "00155-iLDo95ZbDJq_1",
+  "episode_history": "00155-iLDo95ZbDJq",
+  "position": [
+   -13.611224555969239,
+   0.01438,
+   4.6704360961914055
+  ],
+  "rotation": [
+   0.0,
+   0.9999,
+   0.0,
+   0.01379
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     89,
+     98
+    ],
+    "question": "What is put on the red chairs from the dining table?",
+    "answer": "I don't know, there are no red chairs at the dining table, only blue ones.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "frame_index": 49,
+    "question": "What’s the shape of the big sectional sofa in my living room?",
+    "answer": "It is L-shaped.",
+    "question_type": "Object Attributes",
+    "subtype": "Object Attributes"
+   },
+   {
+    "frame_index": [
+     110,
+     111
+    ],
+    "question": "How many empty baskets are placed on top of the washing machine?",
+    "answer": "Three.",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "question": "What material is the oil pump made of near the kitchen counter in the apartment?",
+    "answer": "I don't know, there is no oil pump in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     93,
+     94
+    ],
+    "question": "In the bedroom, are the round 'Jeep' and 'Super Bee' signs to the left of the window?",
+    "answer": "No, they are mounted to the right of the window.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   }
+  ],
+  "question_id": "00155-iLDo95ZbDJq_2",
+  "episode_history": "00155-iLDo95ZbDJq",
+  "position": [
+   -7.09831,
+   0.01438,
+   8.11213
+  ],
+  "rotation": [
+   0.0,
+   0.86506,
+   0.0,
+   0.50167
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

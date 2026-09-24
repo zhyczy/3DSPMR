@@ -1,0 +1,124 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     43,
+     54
+    ],
+    "question": "Where is the lamp with the colorful base located in my home?",
+    "answer": "On the nightstand beside the bed in the bedroom, next to the bathroom door.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "question": "Which cabinet holds the turbine behind the dining table in the apartment?",
+    "answer": "I don't know, there is no turbine in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "frame_index": 32,
+    "question": "Is the fireplace in my living room currently on?",
+    "answer": "Yes, the fireplace is on.",
+    "question_type": "Object Status",
+    "subtype": "Object Status"
+   },
+   {
+    "question": "How many chairs in the apartment?",
+    "answer": "11.",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "frame_index": [
+     34
+    ],
+    "question": "What is the spatial relationship between the purple towels and the toilet?",
+    "answer": "I don't know, there are no blue towels above the toilet, only gray and white ones.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   }
+  ],
+  "question_id": "00166-RaYrxWt5pR1_1",
+  "episode_history": "00166-RaYrxWt5pR1",
+  "position": [
+   2.294948863983155,
+   0.0084,
+   1.0234806060791009
+  ],
+  "rotation": [
+   0.0,
+   0.04678,
+   0.0,
+   0.99891
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     46,
+     54
+    ],
+    "question": "What decorations are attached to the front of the refrigerator in the living room?",
+    "answer": "I don't know, wrong location—the refrigerator is in the kitchen, not the living room.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "Which drawer is designated to keep my scissors away from moisture near the charging station in the printing room?",
+    "answer": "I don't know, there is no printing room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     12,
+     13,
+     14
+    ],
+    "question": "From my kitchen, can I reach the washer and dryer without stepping onto carpet?",
+    "answer": "Yes, the wood-floored entry leads directly to the laundry nook with no carpet in between.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "frame_index": [
+     13,
+     14
+    ],
+    "question": "Where can I have my clothes washed?",
+    "answer": "In the laundry room off the entry hallway, where the washer and dryer are.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "frame_index": [
+     "lauout"
+    ],
+    "question": "How many chairs in the living room?",
+    "answer": "9",
+    "question_type": "Object Counting",
+    "subtype": "Local Counting"
+   }
+  ],
+  "question_id": "00166-RaYrxWt5pR1_2",
+  "episode_history": "00166-RaYrxWt5pR1",
+  "position": [
+   1.60157,
+   0.0084,
+   3.96181
+  ],
+  "rotation": [
+   0.0,
+   0.68147,
+   0.0,
+   -0.73185
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

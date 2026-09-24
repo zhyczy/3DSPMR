@@ -1,0 +1,121 @@
+[
+ {
+  "QA_list": [
+   {
+    "question": "How many bookshelves in the apartment?",
+    "answer": "2.",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "question": "Which pillow did I leave on the wire rack beside the practice mat in the sauna room?",
+    "answer": "I don't know, there is no sauna room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": 80,
+    "question": "What is the low piece of furniture beneath the two framed photos in the hallway outside my bedroom?",
+    "answer": "A low white bookshelf with books and baskets.",
+    "question_type": "Object Recognition",
+    "subtype": "Object Recognition"
+   },
+   {
+    "frame_index": [
+     101,
+     103
+    ],
+    "question": "If I want to work out while getting fresh air, where can I do it?",
+    "answer": "On the exercise bike on the balcony outside the living room.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "frame_index": [
+     "layout"
+    ],
+    "question": "What is the color of the rug on the kitchen floor?",
+    "answer": "I don't know; the rug is in the living room and bedroom, not in the kitchen.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   }
+  ],
+  "question_id": "00256-92vYG1q49FY_1",
+  "episode_history": "00256-92vYG1q49FY",
+  "position": [
+   -0.91149,
+   0.21335,
+   0.91796
+  ],
+  "rotation": [
+   0.0,
+   0.35667,
+   0.0,
+   0.93423
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     101,
+     102
+    ],
+    "question": "What is on the right of the wooden chair in the balcony set?",
+    "answer": "I don't know, there are no wooden chairs on the balcony, only plastic ones.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "What color is the billiard table positioned behind the armchair in the apartment?",
+    "answer": "I don't know, there is no billiard table in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     11,
+     12
+    ],
+    "question": "Where did I leave the TV remote in the living room?",
+    "answer": "On the TV stand next to the television.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": 4,
+    "question": "Does the rug in the living room extend under both the coffee table and the front of the sofa?",
+    "answer": "Yes, the rug sits under the table and the sofa’s front.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "frame_index": [
+     26,
+     27
+    ],
+    "question": "How many red throw pillows are on the yellow daybed in the small study?",
+    "answer": "4",
+    "question_type": "Object Counting",
+    "subtype": "Local Counting"
+   }
+  ],
+  "question_id": "00256-92vYG1q49FY_2",
+  "episode_history": "00256-92vYG1q49FY",
+  "position": [
+   -0.66946,
+   0.21335,
+   1.03837
+  ],
+  "rotation": [
+   0.0,
+   0.84916,
+   0.0,
+   -0.52814
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

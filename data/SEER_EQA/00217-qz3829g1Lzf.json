@@ -1,0 +1,122 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": 30,
+    "question": "Where is my cordless vacuum stored?",
+    "answer": "In the dining room, standing in the corner next to the wooden hutch.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "question": "Which shelf holds the parrot in the apartment?",
+    "answer": "I don't know, there is no parrot in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     18,
+     19
+    ],
+    "question": "How many floor mats are in the apartment?",
+    "answer": "6",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "frame_index": [
+     23,
+     31
+    ],
+    "question": "What is placed on the microwave in the dining room?",
+    "answer": "I don't know, there is no microwave in the dining room.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "frame_index": [
+     21,
+     22,
+     36
+    ],
+    "question": "To reach the living room from the kitchen, do I have to pass through the dining room?",
+    "answer": "No, you can go directly through the short hallway from the kitchen into the living room.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   }
+  ],
+  "question_id": "00217-qz3829g1Lzf_1",
+  "episode_history": "00217-qz3829g1Lzf",
+  "position": [
+   3.96518,
+   0.03398,
+   2.36124
+  ],
+  "rotation": [
+   0.0,
+   0.29059,
+   0.0,
+   -0.95685
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     1,
+     3,
+     7
+    ],
+    "question": "Is the sliding glass door to the patio in my living room open?",
+    "answer": "No, it's closed.",
+    "question_type": "Object Status",
+    "subtype": "Object Status"
+   },
+   {
+    "frame_index": 38,
+    "question": "Where in the living room can I shred some papers?",
+    "answer": "At the black shredder beside the end table behind the sofa.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "question": "What is the power status of the vacuum beside the locker row in the walk-in freezer?",
+    "answer": "I don't know, there is no walk-in freezer in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": 27,
+    "question": "How many candlesticks are on the small cabinet in the corner of my dining room?",
+    "answer": "2",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": 47,
+    "question": "Where can I grab the blue lamp from the small chest beside the stairs?",
+    "answer": "I don't know, there is no blue lamp on that chest; the lamp there has a white shade.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   }
+  ],
+  "question_id": "00217-qz3829g1Lzf_2",
+  "episode_history": "00217-qz3829g1Lzf",
+  "position": [
+   1.905896854400635,
+   0.03398,
+   5.753074836730957
+  ],
+  "rotation": [
+   0.0,
+   0.50979,
+   0.0,
+   -0.8603
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

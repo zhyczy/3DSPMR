@@ -1,0 +1,124 @@
+[
+ {
+  "QA_list": [
+   {
+    "question": "How much space does the horse sketch take above the coffee table in the apartment?",
+    "answer": "I don't know, there is no horse sketch in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     37,
+     38
+    ],
+    "question": "What is the relative position between the red chair and my breakfast nook?",
+    "answer": "I don't know, there are no red chairs in the breakfast nook, only blue ones.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "frame_index": 9,
+    "question": "What is the large framed artwork on the wall in my office showing?",
+    "answer": "It shows a faucet.",
+    "question_type": "Object Recognition",
+    "subtype": "Object Recognition"
+   },
+   {
+    "frame_index": [
+     76,
+     77
+    ],
+    "question": "Where can I hang my jacket when I come in through the laundry room?",
+    "answer": "You can hang it on the wall hooks above the bench in the laundry room.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "question": "How many mats are on the ground in the apartment?",
+    "answer": "5",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   }
+  ],
+  "question_id": "00862-LT9Jq6dN3Ea_1",
+  "episode_history": "00862-LT9Jq6dN3Ea",
+  "position": [
+   -5.66911,
+   0.02343,
+   -2.71904
+  ],
+  "rotation": [
+   0,
+   0.94634,
+   0,
+   -0.32317
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     100,
+     101,
+     102
+    ],
+    "question": "What is the status of the fireplace in my entry hall?",
+    "answer": "I don't know, there is no fireplace in the entry hall.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "How many pillows are inside the box under the cooling rack in the climbing gym?",
+    "answer": "I don't know, there is no climbing gym in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     60,
+     62
+    ],
+    "question": "Where did I leave my stack of magazines near the windows?",
+    "answer": "They are on the small coffee table between the two blue chairs in the sitting area.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": [
+     81,
+     91,
+     97
+    ],
+    "question": "Is my office nook closer to the kitchen or to the front door bench area?",
+    "answer": "It is closer to the kitchen.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "frame_index": 82,
+    "question": "How many pillows are on my entry bench?",
+    "answer": "5",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   }
+  ],
+  "question_id": "00862-LT9Jq6dN3Ea_2",
+  "episode_history": "00862-LT9Jq6dN3Ea",
+  "position": [
+   -3.312322807312011,
+   0.02343,
+   -2.65635223388672
+  ],
+  "rotation": [
+   0,
+   0.90043,
+   0,
+   0.43499
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

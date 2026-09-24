@@ -1,0 +1,123 @@
+[
+ {
+  "QA_list": [
+   {
+    "question": "How many toliets are there in the apartment?",
+    "answer": "2",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "frame_index": 25,
+    "question": "How many laundry machines are in my laundry room?",
+    "answer": "2",
+    "question_type": "Object Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": [
+     24,
+     25
+    ],
+    "question": "Is there enough open floor space in front of the washer and dryer in my laundry room to set down a laundry basket?",
+    "answer": "Yes, there is open floor space between the door and the machines.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "question": "Which box should I use to pack my headphones neatly near the supervisor desk in the dental clinic?",
+    "answer": "I don't know, there is no dental clinic in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment, global"
+   },
+   {
+    "frame_index": [
+     12,
+     7
+    ],
+    "question": "In the kitchen, where is the washing machine located?",
+    "answer": "I don't know, there is no washing machine in the kitchen; it's in the laundry room.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   }
+  ],
+  "question_id": "00848-ziup5kvtCCR_1",
+  "episode_history": "00848-ziup5kvtCCR",
+  "position": [
+   -4.98923,
+   0.02122,
+   0.87922
+  ],
+  "rotation": [
+   0.0,
+   0.91933,
+   0.0,
+   0.39348
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     26,
+     28,
+     29
+    ],
+    "question": "What is the large round object mounted above the fireplace in the corner of my living room?",
+    "answer": "A mirror.",
+    "question_type": "Object Recognition",
+    "subtype": "Object Recognition"
+   },
+   {
+    "frame_index": [
+     68,
+     69
+    ],
+    "question": "What is beside the blue blanket in the bedroom with the wall-mounted TV?",
+    "answer": "I don't know, there is no blue blanket on that bed, only white bedding.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "Where did I leave the robotic arm after cleaning yesterday in the apartment?",
+    "answer": "I don't know, there is no robotic arm in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "frame_index": 34,
+    "question": "Where did I set up my Christmas tree in the living room?",
+    "answer": "Next to the fireplace by the large window.",
+    "question_type": "Location",
+    "subtype": "Location"
+   },
+   {
+    "frame_index": [
+     16,
+     18
+    ],
+    "question": "After cooking, where is a good surface to set a hot pan down in my kitchen?",
+    "answer": "On the long countertop beside the stove and sink.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   }
+  ],
+  "question_id": "00848-ziup5kvtCCR_2",
+  "episode_history": "00848-ziup5kvtCCR",
+  "position": [
+   4.87566,
+   0.02122,
+   2.34776
+  ],
+  "rotation": [
+   0.0,
+   0.54167,
+   0.0,
+   0.84059
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

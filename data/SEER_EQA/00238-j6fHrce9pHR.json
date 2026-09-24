@@ -1,0 +1,130 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     96,
+     97
+    ],
+    "question": "What color are the throw pillows on the single-seated sofa by the fireplace in my living room?",
+    "answer": "White.",
+    "question_type": "Object Attributes",
+    "subtype": "Object Attributes"
+   },
+   {
+    "frame_index": [
+     62,
+     64
+    ],
+    "question": "What is opposite to the blue toolbox from the workbench in the workout room?",
+    "answer": "I don't know, that's the wrong attribute—the toolbox on the workbench is red, not blue.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "question": "How many pillows in the apartment?",
+    "answer": "20.",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "frame_index": [
+     3,
+     4,
+     18
+    ],
+    "question": "Do the washer and dryer fit underneath the sloped alcove under the stairs, or do they stick out into the garage?",
+    "answer": "They fit under the sloped alcove.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "question": "What color is the snake positioned behind the armchair in the apartment?",
+    "answer": "I don't know, there is no snake in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00238-j6fHrce9pHR_1",
+  "episode_history": "00238-j6fHrce9pHR",
+  "position": [
+   -18.06506,
+   -0.06642,
+   1.86687
+  ],
+  "rotation": [
+   0.0,
+   0.01062,
+   0.0,
+   -0.99994
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     212,
+     214
+    ],
+    "question": "Where is the antique wall clock in my house?",
+    "answer": "It's mounted on the dining room wall beside the china cabinet, near the opening to the kitchen.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": [
+     46,
+     48
+    ],
+    "question": "Where can I work out with equipment in the apartment?",
+    "answer": "You can use the running machine beside the window in the workout room.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "frame_index": [
+     147,
+     151,
+     152
+    ],
+    "question": "How many suitcases are in my walk-in storage?",
+    "answer": "2",
+    "question_type": "Object Counting",
+    "subtype": "Local Counting"
+   },
+   {
+    "frame_index": [
+     125,
+     131
+    ],
+    "question": "What is on the top of the refrigerator sitting in the hallway near the stairs?",
+    "answer": "I don't know, there is no refrigerator in the hallway.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "Which shoe rack did I leave on the stainless table beside the charging station in the gymnastics practice room?",
+    "answer": "I don't know, there is no gymnastics practice room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00238-j6fHrce9pHR_2",
+  "episode_history": "00238-j6fHrce9pHR",
+  "position": [
+   8.941762924194336,
+   -0.02541,
+   -1.337015533447266
+  ],
+  "rotation": [
+   0.0,
+   0.82905,
+   0.0,
+   -0.55918
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

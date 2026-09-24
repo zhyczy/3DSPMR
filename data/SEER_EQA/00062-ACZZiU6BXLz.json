@@ -1,0 +1,116 @@
+[
+ {
+  "QA_list": [
+   {
+    "question": "How many decorative plants in the apartment?",
+    "answer": "8.",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "question": "Along which path would I reach my cup stacked on the wire rack in the table tennis room?",
+    "answer": "I don't know, there is no table tennis room in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   },
+   {
+    "frame_index": [
+     16,
+     17,
+     18
+    ],
+    "question": "Is the laundry area separated from the bathroom by a full wall?",
+    "answer": "No, It is open within the same small room, behind folding louvered doors.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "frame_index": 32,
+    "question": "What is the fruit-shaped item hanging on the wall next to the glass door in my dining area?",
+    "answer": "It's a pineapple-shaped wall hook.",
+    "question_type": "Object Recognition",
+    "subtype": "Object Recognition"
+   },
+   {
+    "frame_index": [
+     10
+    ],
+    "question": "What word is directly below the word 'Family' on the wall in my dining room?",
+    "answer": "I don't know; that word wall is in the bedroom, not the dining room.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   }
+  ],
+  "question_id": "00062-ACZZiU6BXLz_1",
+  "episode_history": "00062-ACZZiU6BXLz",
+  "position": [
+   4.42198,
+   0.03928,
+   -1.02047
+  ],
+  "rotation": [
+   0,
+   0.29868,
+   0,
+   0.95435
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": 47,
+    "question": "Where did I leave the tissue box?",
+    "answer": "On top of the red washing machine in the bathroom/laundry beside the living room.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": 37,
+    "question": "What is put on my round dining table?",
+    "answer": "I don't know, the dining table is rectangular, not round.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "frame_index": [
+     14,
+     19
+    ],
+    "question": "Where can I rinse vegetables close to the dining space?",
+    "answer": "At the large stainless sink under the window in the kitchen.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "question": "Which path through the hallway leads me to the vending machine in the apartment?",
+    "answer": "I don't know, there is no vending machine in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "frame_index": 10,
+    "question": "How many elephants are in the picture hanging over the purple bed in my bedroom?",
+    "answer": "6.",
+    "question_type": "Local Counting",
+    "subtype": "Local Counting"
+   }
+  ],
+  "question_id": "00062-ACZZiU6BXLz_2",
+  "episode_history": "00062-ACZZiU6BXLz",
+  "position": [
+   11.543341028690339,
+   0.03928,
+   -2.9285847663879396
+  ],
+  "rotation": [
+   0,
+   0.96582,
+   0,
+   0.2592
+  ],
+  "object_id": null,
+  "class": null
+ }
+]

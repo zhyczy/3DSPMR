@@ -1,0 +1,128 @@
+[
+ {
+  "QA_list": [
+   {
+    "frame_index": 45,
+    "question": "Is the ceiling fan light on in the kitchen?",
+    "answer": "Yes, it is on.",
+    "question_type": "Object Status",
+    "subtype": "Object Status"
+   },
+   {
+    "frame_index": [
+     45,
+     47,
+     49
+    ],
+    "question": "Is my refrigerator closer to the back door or to the dining room doorway?",
+    "answer": "Closer to the back door.",
+    "question_type": "Spatial Reasoning",
+    "subtype": "Spatial Reasoning"
+   },
+   {
+    "frame_index": [
+     46
+    ],
+    "question": "What is behind my metallic piano in the living room?",
+    "answer": "I don't know; that's the wrong attribute—the piano is wooden, not metallic.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Attribute"
+   },
+   {
+    "frame_index": [
+     23,
+     36
+    ],
+    "question": "How many TVs in the apartment?",
+    "answer": "2.",
+    "question_type": "Global Counting",
+    "subtype": "Global Counting"
+   },
+   {
+    "question": "Which bin holds my water bottle near the tool rack in the bowling alley?",
+    "answer": "I don't know, there is no bowling alley in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Room Not Present in the indoor environment"
+   }
+  ],
+  "question_id": "00382-S7uMvxjBVZq_1",
+  "episode_history": "00382-S7uMvxjBVZq",
+  "position": [
+   -11.43205,
+   0.06446,
+   2.08706
+  ],
+  "rotation": [
+   0,
+   0.57982,
+   0,
+   -0.81475
+  ],
+  "object_id": null,
+  "class": null
+ },
+ {
+  "QA_list": [
+   {
+    "frame_index": [
+     26,
+     38
+    ],
+    "question": "What is beside the American flag in my living room?",
+    "answer": "I don't know, the flag is not in the living room; it is on the enclosed porch.",
+    "question_type": "Unanswerable",
+    "subtype": "Incorrect Location"
+   },
+   {
+    "question": "Where could I find the surfboard in the apartment?",
+    "answer": "I don't know, there is no surfboard in the apartment.",
+    "question_type": "Unanswerable",
+    "subtype": "Object Not Present in the indoor environment"
+   },
+   {
+    "frame_index": 47,
+    "question": "Where did I place the pet's food and water bowls?",
+    "answer": "On the kitchen floor by the back door next to the sink cabinets.",
+    "question_type": "Object Location",
+    "subtype": "Object Location"
+   },
+   {
+    "frame_index": [
+     33,
+     38,
+     39
+    ],
+    "question": "Where should I hang my coat after stepping from the living room into the entry area?",
+    "answer": "On the hooks of the wooden hall tree just inside the sunroom doorway.",
+    "question_type": "Functional Reasoning",
+    "subtype": "Functional Reasoning"
+   },
+   {
+    "frame_index": [
+     67,
+     70,
+     71
+    ],
+    "question": "How many tall windows with blue curtains are along the wall of my dining room?",
+    "answer": "5",
+    "question_type": "Object Counting",
+    "subtype": "Local Counting"
+   }
+  ],
+  "question_id": "00382-S7uMvxjBVZq_2",
+  "episode_history": "00382-S7uMvxjBVZq",
+  "position": [
+   -8.698091888427733,
+   0.01961,
+   -3.550535964965821
+  ],
+  "rotation": [
+   0,
+   0.98564,
+   0,
+   -0.16887
+  ],
+  "object_id": null,
+  "class": null
+ }
+]
