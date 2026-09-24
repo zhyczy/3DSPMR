@@ -4,11 +4,9 @@
 
 **NeurIPS 2026**
 
-Zhongyi Cai<sup>1</sup>\*, Yi Du<sup>2</sup>\*, Chen Wang<sup>2</sup>, Yu Kong<sup>1</sup>
+Zhongyi Cai<sup>1</sup>, Yi Du<sup>2</sup>, Chen Wang<sup>2</sup>, Yu Kong<sup>1</sup>
 
 <sup>1</sup>ACTION Lab, Michigan State University &nbsp;&nbsp; <sup>2</sup>SAIR Lab, University at Buffalo
-
-<sup>\*</sup>Equal contribution
 
 [![arXiv](https://img.shields.io/badge/arXiv-2512.02458-b31b1b.svg)](https://arxiv.org/abs/2512.02458)
 [![Paper](https://img.shields.io/badge/Paper-PDF-black.svg)](https://arxiv.org/pdf/2512.02458)
