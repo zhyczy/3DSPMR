@@ -73,8 +73,9 @@ Code is being cleaned up for release. Planned contents:
 
 ```
 3DSPMR/
-├── data/                 # SEER-Bench annotations  (EQA subset available)
-│   └── SEER_EQA.json
+├── data/                 # SEER-Bench annotations  (EQA + EMN subsets available)
+│   ├── SEER_EQA.json
+│   └── SEER_EMN/v1/      # one file per HM3DSem scene
 ├── fig/                  # figures used in this README
 ├── 3dspmr/               # TODO: unified spatial memory, Geo-Reasoning, Geo-Sem exploration
 ├── configs/              # TODO: scene lists, backbone / hyper-parameter configs
@@ -91,8 +92,10 @@ Code is being cleaned up for release. Planned contents:
 
 ## Data
 
-`data/SEER_EQA.json` is a released subset of the SEER-Bench EQA annotations: **24 episodes over 12 HM3DSem
-scenes, 5 questions each (120 questions)**, of which 48 are unanswerable. Each entry is one episode:
+### EQA — `data/SEER_EQA.json`
+
+A released subset of the SEER-Bench EQA annotations: **24 episodes over 12 HM3DSem scenes, 5 questions each
+(120 questions)**, of which 48 are unanswerable. Each entry is one episode:
 
 ```jsonc
 {
@@ -112,6 +115,48 @@ scenes, 5 questions each (120 questions)**, of which 48 are unanswerable. Each e
   ]
 }
 ```
+
+### EMN — `data/SEER_EMN/v1/<scene>.json`
+
+A released subset of the SEER-Bench EMN annotations, in GOAT-Bench episode format: **12 HM3DSem scenes &times;
+10 episodes = 120 episodes, 897 navigation tasks** (5–10 per episode), of which 358 are infeasible (39.9%).
+Each file holds the episodes of one scene plus the goal-viewpoint table they index into:
+
+```jsonc
+{
+  "episodes": [
+    {
+      "episode_id":     0,
+      "scene_id":       "hm3d/val//00877-4ok3usBNeis/4ok3usBNeis.basis.glb",
+      "start_position": [2.6314, -0.53553, 3.47946],
+      "start_rotation": [0, 0.03233, 0, -0.99948],
+      "tasks": [
+        // [category, modality, object_id, feasible]                  -- feasible task
+        ["boiler", "description", "boiler_117", true],
+        // [category, modality, object_id, feasible, infeasible_type] -- infeasible task
+        ["unicorn_statue", "object", null, false, "non_existent_object"]
+        // ... tasks are attempted in order, as one sequential chain
+      ]
+    }
+  ],
+  "goals": {
+    // "<scene>.basis.glb_<category>" -> instances, each with its position and
+    // the viewpoints (agent pose + IoU) that count as reaching the goal
+    "4ok3usBNeis.basis.glb_freezer": [
+      {
+        "object_category": "freezer",
+        "object_id":       "freezer_2",
+        "position":        [1.13531, -0.21143, 5.9484],
+        "view_points":     [{"agent_state": {"position": [...], "rotation": [...]}, "iou": 0.66337}]
+      }
+    ]
+  }
+}
+```
+
+Goal modalities are `object` / `description` / `image` (345 / 268 / 284 tasks). Infeasible tasks carry the reason
+they are impossible: `non_existent_object` (133), `modified_description` (112) and `different_scene_image` (113) —
+the object is absent, the description does not match any instance, or the goal image comes from another scene.
 
 Scene meshes are not redistributed here — HM3DSem must be obtained from its
 [official release](https://aihabitat.org/datasets/hm3d-semantics/).
