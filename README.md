@@ -10,6 +10,7 @@ Zhongyi Cai<sup>1</sup>\*, Yi Du<sup>2</sup>\*, Chen Wang<sup>2</sup>, Yu Kong<s
 
 [![arXiv](https://img.shields.io/badge/arXiv-2512.02458-b31b1b.svg)](https://arxiv.org/abs/2512.02458)
 [![Paper](https://img.shields.io/badge/Paper-PDF-black.svg)](https://arxiv.org/pdf/2512.02458)
+[![Project Page](https://img.shields.io/badge/Project%20Page-3DSPMR-1f6feb.svg)](https://zhyczy.github.io/3DSPMR_web/)
 
 
 </div>
