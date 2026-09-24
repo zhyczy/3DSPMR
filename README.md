@@ -92,9 +92,10 @@ Code is being cleaned up for release. Planned contents:
 
 ### EQA — `data/SEER_EQA/<scene>.json`
 
-The full SEER-Bench EQA annotations: **60 HM3DSem scenes, 110 episodes, 5 questions each (550 questions)**,
-of which 220 are unanswerable (40.0%). Most scenes carry two episodes with different start poses and different
-question chains. Each file holds the episodes of one scene, as a list; each entry is one episode:
+The full SEER-Bench EQA annotations: **60 HM3DSem scenes, 110 episodes, 550 questions**, of which 220 are
+unanswerable (40.0%). Most scenes carry two episodes with different start poses and different question chains.
+An episode chains **1&ndash;10 questions** &mdash; the five below are just an example. Each file holds the
+episodes of one scene, as a list; each entry is one episode:
 
 ```jsonc
 {
@@ -102,7 +103,7 @@ question chains. Each file holds the episodes of one scene, as a list; each entr
   "episode_history": "00009-vLpv2VX547B",    // HM3DSem scene
   "position":        [-1.66593, 0.0101, -1.71676],   // agent start position (Habitat world frame)
   "rotation":        [0.0, 0.60448, 0.0, 0.79662],   // agent start rotation (quaternion)
-  "QA_list": [
+  "QA_list": [                                       // 1-10 questions; 5 in this example
     {
       "question":      "How many brooms are there in the apartment?",
       "answer":        "2",
@@ -110,7 +111,7 @@ question chains. Each file holds the episodes of one scene, as a list; each entr
       "subtype":       "Global Counting",
       "frame_index":   46                    // optional: index of the annotation reference frame
     }
-    // ... 5 questions, asked in order as one sequential chain
+    // ... the questions of this episode, asked in order as one sequential chain
   ]
 }
 ```
